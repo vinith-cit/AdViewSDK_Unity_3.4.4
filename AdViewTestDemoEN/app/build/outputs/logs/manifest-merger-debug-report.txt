@@ -1,0 +1,692 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/vinith/Desktop/github_unity_vinith_3.4.1/AdView_Unity3D_Android_SDK-3.4.1-master/AdViewTestDemoEN/app/src/main/AndroidManifest.xml:2:1-538:12
+	package
+		ADDED from /Users/vinith/Desktop/github_unity_vinith_3.4.1/AdView_Unity3D_Android_SDK-3.4.1-master/AdViewTestDemoEN/app/src/main/AndroidManifest.xml:3:5-34
+		INJECTED from /Users/vinith/Desktop/github_unity_vinith_3.4.1/AdView_Unity3D_Android_SDK-3.4.1-master/AdViewTestDemoEN/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/vinith/Desktop/github_unity_vinith_3.4.1/AdView_Unity3D_Android_SDK-3.4.1-master/AdViewTestDemoEN/app/src/main/AndroidManifest.xml
+	android:versionName
+		ADDED from /Users/vinith/Desktop/github_unity_vinith_3.4.1/AdView_Unity3D_Android_SDK-3.4.1-master/AdViewTestDemoEN/app/src/main/AndroidManifest.xml:5:5-30
+		INJECTED from /Users/vinith/Desktop/github_unity_vinith_3.4.1/AdView_Unity3D_Android_SDK-3.4.1-master/AdViewTestDemoEN/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/vinith/Desktop/github_unity_vinith_3.4.1/AdView_Unity3D_Android_SDK-3.4.1-master/AdViewTestDemoEN/app/src/main/AndroidManifest.xml
+	android:versionCode
+		ADDED from /Users/vinith/Desktop/github_unity_vinith_3.4.1/AdView_Unity3D_Android_SDK-3.4.1-master/AdViewTestDemoEN/app/src/main/AndroidManifest.xml:4:5-28
+		INJECTED from /Users/vinith/Desktop/github_unity_vinith_3.4.1/AdView_Unity3D_Android_SDK-3.4.1-master/AdViewTestDemoEN/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/vinith/Desktop/github_unity_vinith_3.4.1/AdView_Unity3D_Android_SDK-3.4.1-master/AdViewTestDemoEN/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/vinith/Desktop/github_unity_vinith_3.4.1/AdView_Unity3D_Android_SDK-3.4.1-master/AdViewTestDemoEN/app/src/main/AndroidManifest.xml:2:11-69
+uses-sdk
+ADDED from /Users/vinith/Desktop/github_unity_vinith_3.4.1/AdView_Unity3D_Android_SDK-3.4.1-master/AdViewTestDemoEN/app/src/main/AndroidManifest.xml:7:5-44
+MERGED from [com.android.support:recyclerview-v7:21.0.3] /Users/vinith/.android/build-cache/10f2bc1b5822d3273ec1a735398905849a0b8954/output/AndroidManifest.xml:15:5-42
+MERGED from [com.android.support:support-v4:21.0.3] /Users/vinith/.android/build-cache/bf0f177493e0b18539ba19eb5c84fc7f6bc45c67/output/AndroidManifest.xml:15:5-42
+	android:targetSdkVersion
+		INJECTED from /Users/vinith/Desktop/github_unity_vinith_3.4.1/AdView_Unity3D_Android_SDK-3.4.1-master/AdViewTestDemoEN/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/vinith/Desktop/github_unity_vinith_3.4.1/AdView_Unity3D_Android_SDK-3.4.1-master/AdViewTestDemoEN/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		ADDED from /Users/vinith/Desktop/github_unity_vinith_3.4.1/AdView_Unity3D_Android_SDK-3.4.1-master/AdViewTestDemoEN/app/src/main/AndroidManifest.xml:7:15-41
+		INJECTED from /Users/vinith/Desktop/github_unity_vinith_3.4.1/AdView_Unity3D_Android_SDK-3.4.1-master/AdViewTestDemoEN/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/vinith/Desktop/github_unity_vinith_3.4.1/AdView_Unity3D_Android_SDK-3.4.1-master/AdViewTestDemoEN/app/src/main/AndroidManifest.xml
+uses-permission#android.permission.INTERNET
+ADDED from /Users/vinith/Desktop/github_unity_vinith_3.4.1/AdView_Unity3D_Android_SDK-3.4.1-master/AdViewTestDemoEN/app/src/main/AndroidManifest.xml:10:5-67
+	android:name
+		ADDED from /Users/vinith/Desktop/github_unity_vinith_3.4.1/AdView_Unity3D_Android_SDK-3.4.1-master/AdViewTestDemoEN/app/src/main/AndroidManifest.xml:10:22-64
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /Users/vinith/Desktop/github_unity_vinith_3.4.1/AdView_Unity3D_Android_SDK-3.4.1-master/AdViewTestDemoEN/app/src/main/AndroidManifest.xml:11:5-81
+	android:name
+		ADDED from /Users/vinith/Desktop/github_unity_vinith_3.4.1/AdView_Unity3D_Android_SDK-3.4.1-master/AdViewTestDemoEN/app/src/main/AndroidManifest.xml:11:22-78
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from /Users/vinith/Desktop/github_unity_vinith_3.4.1/AdView_Unity3D_Android_SDK-3.4.1-master/AdViewTestDemoEN/app/src/main/AndroidManifest.xml:12:5-75
+	android:name
+		ADDED from /Users/vinith/Desktop/github_unity_vinith_3.4.1/AdView_Unity3D_Android_SDK-3.4.1-master/AdViewTestDemoEN/app/src/main/AndroidManifest.xml:12:22-72
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from /Users/vinith/Desktop/github_unity_vinith_3.4.1/AdView_Unity3D_Android_SDK-3.4.1-master/AdViewTestDemoEN/app/src/main/AndroidManifest.xml:13:5-79
+	android:name
+		ADDED from /Users/vinith/Desktop/github_unity_vinith_3.4.1/AdView_Unity3D_Android_SDK-3.4.1-master/AdViewTestDemoEN/app/src/main/AndroidManifest.xml:13:22-76
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from /Users/vinith/Desktop/github_unity_vinith_3.4.1/AdView_Unity3D_Android_SDK-3.4.1-master/AdViewTestDemoEN/app/src/main/AndroidManifest.xml:14:5-76
+	android:name
+		ADDED from /Users/vinith/Desktop/github_unity_vinith_3.4.1/AdView_Unity3D_Android_SDK-3.4.1-master/AdViewTestDemoEN/app/src/main/AndroidManifest.xml:14:22-73
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from /Users/vinith/Desktop/github_unity_vinith_3.4.1/AdView_Unity3D_Android_SDK-3.4.1-master/AdViewTestDemoEN/app/src/main/AndroidManifest.xml:15:5-81
+	android:name
+		ADDED from /Users/vinith/Desktop/github_unity_vinith_3.4.1/AdView_Unity3D_Android_SDK-3.4.1-master/AdViewTestDemoEN/app/src/main/AndroidManifest.xml:15:22-78
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from /Users/vinith/Desktop/github_unity_vinith_3.4.1/AdView_Unity3D_Android_SDK-3.4.1-master/AdViewTestDemoEN/app/src/main/AndroidManifest.xml:16:5-79
+	android:name
+		ADDED from /Users/vinith/Desktop/github_unity_vinith_3.4.1/AdView_Unity3D_Android_SDK-3.4.1-master/AdViewTestDemoEN/app/src/main/AndroidManifest.xml:16:22-76
+uses-permission#android.permission.SYSTEM_ALERT_WINDOW
+ADDED from /Users/vinith/Desktop/github_unity_vinith_3.4.1/AdView_Unity3D_Android_SDK-3.4.1-master/AdViewTestDemoEN/app/src/main/AndroidManifest.xml:17:5-78
+	android:name
+		ADDED from /Users/vinith/Desktop/github_unity_vinith_3.4.1/AdView_Unity3D_Android_SDK-3.4.1-master/AdViewTestDemoEN/app/src/main/AndroidManifest.xml:17:22-75
+uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
+ADDED from /Users/vinith/Desktop/github_unity_vinith_3.4.1/AdView_Unity3D_Android_SDK-3.4.1-master/AdViewTestDemoEN/app/src/main/AndroidManifest.xml:20:5-81
+	android:name
+		ADDED from /Users/vinith/Desktop/github_unity_vinith_3.4.1/AdView_Unity3D_Android_SDK-3.4.1-master/AdViewTestDemoEN/app/src/main/AndroidManifest.xml:20:22-78
+uses-permission#android.permission.VIBRATE
+ADDED from /Users/vinith/Desktop/github_unity_vinith_3.4.1/AdView_Unity3D_Android_SDK-3.4.1-master/AdViewTestDemoEN/app/src/main/AndroidManifest.xml:23:5-66
+	android:name
+		ADDED from /Users/vinith/Desktop/github_unity_vinith_3.4.1/AdView_Unity3D_Android_SDK-3.4.1-master/AdViewTestDemoEN/app/src/main/AndroidManifest.xml:23:22-63
+uses-permission#android.permission.CAMERA
+ADDED from /Users/vinith/Desktop/github_unity_vinith_3.4.1/AdView_Unity3D_Android_SDK-3.4.1-master/AdViewTestDemoEN/app/src/main/AndroidManifest.xml:26:5-65
+	android:name
+		ADDED from /Users/vinith/Desktop/github_unity_vinith_3.4.1/AdView_Unity3D_Android_SDK-3.4.1-master/AdViewTestDemoEN/app/src/main/AndroidManifest.xml:26:22-62
+uses-permission#android.permission.RECORD_AUDIO
+ADDED from /Users/vinith/Desktop/github_unity_vinith_3.4.1/AdView_Unity3D_Android_SDK-3.4.1-master/AdViewTestDemoEN/app/src/main/AndroidManifest.xml:29:5-71
+	android:name
+		ADDED from /Users/vinith/Desktop/github_unity_vinith_3.4.1/AdView_Unity3D_Android_SDK-3.4.1-master/AdViewTestDemoEN/app/src/main/AndroidManifest.xml:29:22-68
+uses-permission#android.permission.CALL_PHONE
+ADDED from /Users/vinith/Desktop/github_unity_vinith_3.4.1/AdView_Unity3D_Android_SDK-3.4.1-master/AdViewTestDemoEN/app/src/main/AndroidManifest.xml:32:5-69
+	android:name
+		ADDED from /Users/vinith/Desktop/github_unity_vinith_3.4.1/AdView_Unity3D_Android_SDK-3.4.1-master/AdViewTestDemoEN/app/src/main/AndroidManifest.xml:32:22-66
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from /Users/vinith/Desktop/github_unity_vinith_3.4.1/AdView_Unity3D_Android_SDK-3.4.1-master/AdViewTestDemoEN/app/src/main/AndroidManifest.xml:35:5-80
+	android:name
+		ADDED from /Users/vinith/Desktop/github_unity_vinith_3.4.1/AdView_Unity3D_Android_SDK-3.4.1-master/AdViewTestDemoEN/app/src/main/AndroidManifest.xml:35:22-77
+uses-permission#android.permission.CHANGE_CONFIGURATION
+ADDED from /Users/vinith/Desktop/github_unity_vinith_3.4.1/AdView_Unity3D_Android_SDK-3.4.1-master/AdViewTestDemoEN/app/src/main/AndroidManifest.xml:36:5-79
+	android:name
+		ADDED from /Users/vinith/Desktop/github_unity_vinith_3.4.1/AdView_Unity3D_Android_SDK-3.4.1-master/AdViewTestDemoEN/app/src/main/AndroidManifest.xml:36:22-76
+uses-permission#android.permission.CHANGE_WIFI_STATE
+ADDED from /Users/vinith/Desktop/github_unity_vinith_3.4.1/AdView_Unity3D_Android_SDK-3.4.1-master/AdViewTestDemoEN/app/src/main/AndroidManifest.xml:39:5-76
+	android:name
+		ADDED from /Users/vinith/Desktop/github_unity_vinith_3.4.1/AdView_Unity3D_Android_SDK-3.4.1-master/AdViewTestDemoEN/app/src/main/AndroidManifest.xml:39:22-73
+uses-permission#android.permission.WRITE_CALENDAR
+ADDED from /Users/vinith/Desktop/github_unity_vinith_3.4.1/AdView_Unity3D_Android_SDK-3.4.1-master/AdViewTestDemoEN/app/src/main/AndroidManifest.xml:40:5-73
+	android:name
+		ADDED from /Users/vinith/Desktop/github_unity_vinith_3.4.1/AdView_Unity3D_Android_SDK-3.4.1-master/AdViewTestDemoEN/app/src/main/AndroidManifest.xml:40:22-70
+uses-permission#android.permission.MOUNT_UNMOUNT_FILESYSTEMS
+ADDED from /Users/vinith/Desktop/github_unity_vinith_3.4.1/AdView_Unity3D_Android_SDK-3.4.1-master/AdViewTestDemoEN/app/src/main/AndroidManifest.xml:43:5-84
+	android:name
+		ADDED from /Users/vinith/Desktop/github_unity_vinith_3.4.1/AdView_Unity3D_Android_SDK-3.4.1-master/AdViewTestDemoEN/app/src/main/AndroidManifest.xml:43:22-81
+uses-permission#android.permission.READ_CALENDAR
+ADDED from /Users/vinith/Desktop/github_unity_vinith_3.4.1/AdView_Unity3D_Android_SDK-3.4.1-master/AdViewTestDemoEN/app/src/main/AndroidManifest.xml:46:5-72
+	android:name
+		ADDED from /Users/vinith/Desktop/github_unity_vinith_3.4.1/AdView_Unity3D_Android_SDK-3.4.1-master/AdViewTestDemoEN/app/src/main/AndroidManifest.xml:46:22-69
+uses-permission#android.permission.SEND_SMS
+ADDED from /Users/vinith/Desktop/github_unity_vinith_3.4.1/AdView_Unity3D_Android_SDK-3.4.1-master/AdViewTestDemoEN/app/src/main/AndroidManifest.xml:47:5-67
+	android:name
+		ADDED from /Users/vinith/Desktop/github_unity_vinith_3.4.1/AdView_Unity3D_Android_SDK-3.4.1-master/AdViewTestDemoEN/app/src/main/AndroidManifest.xml:47:22-64
+uses-permission#android.permission.GET_TASKS
+ADDED from /Users/vinith/Desktop/github_unity_vinith_3.4.1/AdView_Unity3D_Android_SDK-3.4.1-master/AdViewTestDemoEN/app/src/main/AndroidManifest.xml:50:5-68
+	android:name
+		ADDED from /Users/vinith/Desktop/github_unity_vinith_3.4.1/AdView_Unity3D_Android_SDK-3.4.1-master/AdViewTestDemoEN/app/src/main/AndroidManifest.xml:50:22-65
+uses-permission#com.android.launcher.permission.INSTALL_SHORTCUT
+ADDED from /Users/vinith/Desktop/github_unity_vinith_3.4.1/AdView_Unity3D_Android_SDK-3.4.1-master/AdViewTestDemoEN/app/src/main/AndroidManifest.xml:53:5-88
+	android:name
+		ADDED from /Users/vinith/Desktop/github_unity_vinith_3.4.1/AdView_Unity3D_Android_SDK-3.4.1-master/AdViewTestDemoEN/app/src/main/AndroidManifest.xml:53:22-85
+uses-permission#com.android.browser.permission.READ_HISTORY_BOOKMARKS
+ADDED from /Users/vinith/Desktop/github_unity_vinith_3.4.1/AdView_Unity3D_Android_SDK-3.4.1-master/AdViewTestDemoEN/app/src/main/AndroidManifest.xml:56:5-93
+	android:name
+		ADDED from /Users/vinith/Desktop/github_unity_vinith_3.4.1/AdView_Unity3D_Android_SDK-3.4.1-master/AdViewTestDemoEN/app/src/main/AndroidManifest.xml:56:22-90
+uses-permission#android.permission.GET_ACCOUNTS
+ADDED from /Users/vinith/Desktop/github_unity_vinith_3.4.1/AdView_Unity3D_Android_SDK-3.4.1-master/AdViewTestDemoEN/app/src/main/AndroidManifest.xml:58:5-71
+	android:name
+		ADDED from /Users/vinith/Desktop/github_unity_vinith_3.4.1/AdView_Unity3D_Android_SDK-3.4.1-master/AdViewTestDemoEN/app/src/main/AndroidManifest.xml:58:22-68
+application
+ADDED from /Users/vinith/Desktop/github_unity_vinith_3.4.1/AdView_Unity3D_Android_SDK-3.4.1-master/AdViewTestDemoEN/app/src/main/AndroidManifest.xml:60:5-536:19
+MERGED from [com.android.support:recyclerview-v7:21.0.3] /Users/vinith/.android/build-cache/10f2bc1b5822d3273ec1a735398905849a0b8954/output/AndroidManifest.xml:17:5-19:19
+MERGED from [com.android.support:support-v4:21.0.3] /Users/vinith/.android/build-cache/bf0f177493e0b18539ba19eb5c84fc7f6bc45c67/output/AndroidManifest.xml:16:5-19
+	android:screenOrientation
+		ADDED from /Users/vinith/Desktop/github_unity_vinith_3.4.1/AdView_Unity3D_Android_SDK-3.4.1-master/AdViewTestDemoEN/app/src/main/AndroidManifest.xml:63:9-45
+	android:label
+		ADDED from /Users/vinith/Desktop/github_unity_vinith_3.4.1/AdView_Unity3D_Android_SDK-3.4.1-master/AdViewTestDemoEN/app/src/main/AndroidManifest.xml:62:9-41
+	android:icon
+		ADDED from /Users/vinith/Desktop/github_unity_vinith_3.4.1/AdView_Unity3D_Android_SDK-3.4.1-master/AdViewTestDemoEN/app/src/main/AndroidManifest.xml:61:9-44
+	android:theme
+		ADDED from /Users/vinith/Desktop/github_unity_vinith_3.4.1/AdView_Unity3D_Android_SDK-3.4.1-master/AdViewTestDemoEN/app/src/main/AndroidManifest.xml:64:9-40
+activity#com.kyview.testdemo.MainActivity
+ADDED from /Users/vinith/Desktop/github_unity_vinith_3.4.1/AdView_Unity3D_Android_SDK-3.4.1-master/AdViewTestDemoEN/app/src/main/AndroidManifest.xml:65:9-73:20
+	android:windowSoftInputMode
+		ADDED from /Users/vinith/Desktop/github_unity_vinith_3.4.1/AdView_Unity3D_Android_SDK-3.4.1-master/AdViewTestDemoEN/app/src/main/AndroidManifest.xml:67:4-45
+	android:name
+		ADDED from /Users/vinith/Desktop/github_unity_vinith_3.4.1/AdView_Unity3D_Android_SDK-3.4.1-master/AdViewTestDemoEN/app/src/main/AndroidManifest.xml:66:13-60
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from /Users/vinith/Desktop/github_unity_vinith_3.4.1/AdView_Unity3D_Android_SDK-3.4.1-master/AdViewTestDemoEN/app/src/main/AndroidManifest.xml:68:13-72:29
+action#android.intent.action.MAIN
+ADDED from /Users/vinith/Desktop/github_unity_vinith_3.4.1/AdView_Unity3D_Android_SDK-3.4.1-master/AdViewTestDemoEN/app/src/main/AndroidManifest.xml:69:17-69
+	android:name
+		ADDED from /Users/vinith/Desktop/github_unity_vinith_3.4.1/AdView_Unity3D_Android_SDK-3.4.1-master/AdViewTestDemoEN/app/src/main/AndroidManifest.xml:69:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/vinith/Desktop/github_unity_vinith_3.4.1/AdView_Unity3D_Android_SDK-3.4.1-master/AdViewTestDemoEN/app/src/main/AndroidManifest.xml:71:17-77
+	android:name
+		ADDED from /Users/vinith/Desktop/github_unity_vinith_3.4.1/AdView_Unity3D_Android_SDK-3.4.1-master/AdViewTestDemoEN/app/src/main/AndroidManifest.xml:71:27-74
+activity#com.kyview.testdemo.AdNativeActivity
+ADDED from /Users/vinith/Desktop/github_unity_vinith_3.4.1/AdView_Unity3D_Android_SDK-3.4.1-master/AdViewTestDemoEN/app/src/main/AndroidManifest.xml:74:9-75:20
+	android:name
+		ADDED from /Users/vinith/Desktop/github_unity_vinith_3.4.1/AdView_Unity3D_Android_SDK-3.4.1-master/AdViewTestDemoEN/app/src/main/AndroidManifest.xml:74:19-70
+activity#com.kyview.testdemo.AdVideoActivity
+ADDED from /Users/vinith/Desktop/github_unity_vinith_3.4.1/AdView_Unity3D_Android_SDK-3.4.1-master/AdViewTestDemoEN/app/src/main/AndroidManifest.xml:76:9-77:20
+	android:name
+		ADDED from /Users/vinith/Desktop/github_unity_vinith_3.4.1/AdView_Unity3D_Android_SDK-3.4.1-master/AdViewTestDemoEN/app/src/main/AndroidManifest.xml:76:19-69
+activity#com.kyview.testdemo.AdInstlActivity
+ADDED from /Users/vinith/Desktop/github_unity_vinith_3.4.1/AdView_Unity3D_Android_SDK-3.4.1-master/AdViewTestDemoEN/app/src/main/AndroidManifest.xml:78:9-79:20
+	android:name
+		ADDED from /Users/vinith/Desktop/github_unity_vinith_3.4.1/AdView_Unity3D_Android_SDK-3.4.1-master/AdViewTestDemoEN/app/src/main/AndroidManifest.xml:78:19-69
+activity#com.kyview.testdemo.AdBannerActivity
+ADDED from /Users/vinith/Desktop/github_unity_vinith_3.4.1/AdView_Unity3D_Android_SDK-3.4.1-master/AdViewTestDemoEN/app/src/main/AndroidManifest.xml:81:9-82:20
+	android:name
+		ADDED from /Users/vinith/Desktop/github_unity_vinith_3.4.1/AdView_Unity3D_Android_SDK-3.4.1-master/AdViewTestDemoEN/app/src/main/AndroidManifest.xml:81:19-70
+activity#com.kyview.testdemo.SpreadScreenActivity
+ADDED from /Users/vinith/Desktop/github_unity_vinith_3.4.1/AdView_Unity3D_Android_SDK-3.4.1-master/AdViewTestDemoEN/app/src/main/AndroidManifest.xml:84:9-85:20
+	android:name
+		ADDED from /Users/vinith/Desktop/github_unity_vinith_3.4.1/AdView_Unity3D_Android_SDK-3.4.1-master/AdViewTestDemoEN/app/src/main/AndroidManifest.xml:84:19-74
+activity#com.kuaiyou.video.vast.activity.VASTAdActivity
+ADDED from /Users/vinith/Desktop/github_unity_vinith_3.4.1/AdView_Unity3D_Android_SDK-3.4.1-master/AdViewTestDemoEN/app/src/main/AndroidManifest.xml:89:9-93:52
+	android:screenOrientation
+		ADDED from /Users/vinith/Desktop/github_unity_vinith_3.4.1/AdView_Unity3D_Android_SDK-3.4.1-master/AdViewTestDemoEN/app/src/main/AndroidManifest.xml:93:13-50
+	android:hardwareAccelerated
+		ADDED from /Users/vinith/Desktop/github_unity_vinith_3.4.1/AdView_Unity3D_Android_SDK-3.4.1-master/AdViewTestDemoEN/app/src/main/AndroidManifest.xml:92:13-47
+	android:configChanges
+		ADDED from /Users/vinith/Desktop/github_unity_vinith_3.4.1/AdView_Unity3D_Android_SDK-3.4.1-master/AdViewTestDemoEN/app/src/main/AndroidManifest.xml:91:13-122
+	android:name
+		ADDED from /Users/vinith/Desktop/github_unity_vinith_3.4.1/AdView_Unity3D_Android_SDK-3.4.1-master/AdViewTestDemoEN/app/src/main/AndroidManifest.xml:90:13-74
+activity#com.kuaiyou.video.AdviewWebView
+ADDED from /Users/vinith/Desktop/github_unity_vinith_3.4.1/AdView_Unity3D_Android_SDK-3.4.1-master/AdViewTestDemoEN/app/src/main/AndroidManifest.xml:94:9-67
+	android:name
+		ADDED from /Users/vinith/Desktop/github_unity_vinith_3.4.1/AdView_Unity3D_Android_SDK-3.4.1-master/AdViewTestDemoEN/app/src/main/AndroidManifest.xml:94:19-65
+service#com.kyview.DownloadService
+ADDED from /Users/vinith/Desktop/github_unity_vinith_3.4.1/AdView_Unity3D_Android_SDK-3.4.1-master/AdViewTestDemoEN/app/src/main/AndroidManifest.xml:95:9-62
+	android:name
+		ADDED from /Users/vinith/Desktop/github_unity_vinith_3.4.1/AdView_Unity3D_Android_SDK-3.4.1-master/AdViewTestDemoEN/app/src/main/AndroidManifest.xml:95:18-59
+activity#com.kyview.AdviewWebView
+ADDED from /Users/vinith/Desktop/github_unity_vinith_3.4.1/AdView_Unity3D_Android_SDK-3.4.1-master/AdViewTestDemoEN/app/src/main/AndroidManifest.xml:96:9-61
+	android:name
+		ADDED from /Users/vinith/Desktop/github_unity_vinith_3.4.1/AdView_Unity3D_Android_SDK-3.4.1-master/AdViewTestDemoEN/app/src/main/AndroidManifest.xml:96:19-58
+activity#com.kyview.AdActivity
+ADDED from /Users/vinith/Desktop/github_unity_vinith_3.4.1/AdView_Unity3D_Android_SDK-3.4.1-master/AdViewTestDemoEN/app/src/main/AndroidManifest.xml:97:3-52
+	android:name
+		ADDED from /Users/vinith/Desktop/github_unity_vinith_3.4.1/AdView_Unity3D_Android_SDK-3.4.1-master/AdViewTestDemoEN/app/src/main/AndroidManifest.xml:97:13-49
+activity#com.oupeng.ad.sdk.video.OupengPlayerActivity
+ADDED from /Users/vinith/Desktop/github_unity_vinith_3.4.1/AdView_Unity3D_Android_SDK-3.4.1-master/AdViewTestDemoEN/app/src/main/AndroidManifest.xml:101:9-104:74
+	android:configChanges
+		ADDED from /Users/vinith/Desktop/github_unity_vinith_3.4.1/AdView_Unity3D_Android_SDK-3.4.1-master/AdViewTestDemoEN/app/src/main/AndroidManifest.xml:103:13-74
+	android:theme
+		ADDED from /Users/vinith/Desktop/github_unity_vinith_3.4.1/AdView_Unity3D_Android_SDK-3.4.1-master/AdViewTestDemoEN/app/src/main/AndroidManifest.xml:104:13-71
+	android:name
+		ADDED from /Users/vinith/Desktop/github_unity_vinith_3.4.1/AdView_Unity3D_Android_SDK-3.4.1-master/AdViewTestDemoEN/app/src/main/AndroidManifest.xml:102:13-72
+activity#com.oupeng.ad.sdk.browser.OupengBrowser
+ADDED from /Users/vinith/Desktop/github_unity_vinith_3.4.1/AdView_Unity3D_Android_SDK-3.4.1-master/AdViewTestDemoEN/app/src/main/AndroidManifest.xml:105:9-108:74
+	android:configChanges
+		ADDED from /Users/vinith/Desktop/github_unity_vinith_3.4.1/AdView_Unity3D_Android_SDK-3.4.1-master/AdViewTestDemoEN/app/src/main/AndroidManifest.xml:107:13-74
+	android:theme
+		ADDED from /Users/vinith/Desktop/github_unity_vinith_3.4.1/AdView_Unity3D_Android_SDK-3.4.1-master/AdViewTestDemoEN/app/src/main/AndroidManifest.xml:108:13-71
+	android:name
+		ADDED from /Users/vinith/Desktop/github_unity_vinith_3.4.1/AdView_Unity3D_Android_SDK-3.4.1-master/AdViewTestDemoEN/app/src/main/AndroidManifest.xml:106:13-67
+activity#com.oupeng.ad.sdk.interstitial.adapter.html.OupengHtmlInterstitialActivity
+ADDED from /Users/vinith/Desktop/github_unity_vinith_3.4.1/AdView_Unity3D_Android_SDK-3.4.1-master/AdViewTestDemoEN/app/src/main/AndroidManifest.xml:109:9-112:74
+	android:configChanges
+		ADDED from /Users/vinith/Desktop/github_unity_vinith_3.4.1/AdView_Unity3D_Android_SDK-3.4.1-master/AdViewTestDemoEN/app/src/main/AndroidManifest.xml:111:13-74
+	android:theme
+		ADDED from /Users/vinith/Desktop/github_unity_vinith_3.4.1/AdView_Unity3D_Android_SDK-3.4.1-master/AdViewTestDemoEN/app/src/main/AndroidManifest.xml:112:13-71
+	android:name
+		ADDED from /Users/vinith/Desktop/github_unity_vinith_3.4.1/AdView_Unity3D_Android_SDK-3.4.1-master/AdViewTestDemoEN/app/src/main/AndroidManifest.xml:110:13-102
+activity#com.oupeng.ad.sdk.interstitial.adapter.image.OupengImageInterstitialActivity
+ADDED from /Users/vinith/Desktop/github_unity_vinith_3.4.1/AdView_Unity3D_Android_SDK-3.4.1-master/AdViewTestDemoEN/app/src/main/AndroidManifest.xml:113:9-116:74
+	android:configChanges
+		ADDED from /Users/vinith/Desktop/github_unity_vinith_3.4.1/AdView_Unity3D_Android_SDK-3.4.1-master/AdViewTestDemoEN/app/src/main/AndroidManifest.xml:115:13-74
+	android:theme
+		ADDED from /Users/vinith/Desktop/github_unity_vinith_3.4.1/AdView_Unity3D_Android_SDK-3.4.1-master/AdViewTestDemoEN/app/src/main/AndroidManifest.xml:116:13-71
+	android:name
+		ADDED from /Users/vinith/Desktop/github_unity_vinith_3.4.1/AdView_Unity3D_Android_SDK-3.4.1-master/AdViewTestDemoEN/app/src/main/AndroidManifest.xml:114:13-104
+activity#com.oupeng.ad.sdk.splash.adapter.OupengImageSplashActivity
+ADDED from /Users/vinith/Desktop/github_unity_vinith_3.4.1/AdView_Unity3D_Android_SDK-3.4.1-master/AdViewTestDemoEN/app/src/main/AndroidManifest.xml:117:9-120:74
+	android:configChanges
+		ADDED from /Users/vinith/Desktop/github_unity_vinith_3.4.1/AdView_Unity3D_Android_SDK-3.4.1-master/AdViewTestDemoEN/app/src/main/AndroidManifest.xml:119:13-74
+	android:theme
+		ADDED from /Users/vinith/Desktop/github_unity_vinith_3.4.1/AdView_Unity3D_Android_SDK-3.4.1-master/AdViewTestDemoEN/app/src/main/AndroidManifest.xml:120:13-71
+	android:name
+		ADDED from /Users/vinith/Desktop/github_unity_vinith_3.4.1/AdView_Unity3D_Android_SDK-3.4.1-master/AdViewTestDemoEN/app/src/main/AndroidManifest.xml:118:13-86
+activity#com.ads.sdk.video.VideoActivity
+ADDED from /Users/vinith/Desktop/github_unity_vinith_3.4.1/AdView_Unity3D_Android_SDK-3.4.1-master/AdViewTestDemoEN/app/src/main/AndroidManifest.xml:123:9-126:63
+	android:configChanges
+		ADDED from /Users/vinith/Desktop/github_unity_vinith_3.4.1/AdView_Unity3D_Android_SDK-3.4.1-master/AdViewTestDemoEN/app/src/main/AndroidManifest.xml:125:13-115
+	android:theme
+		ADDED from /Users/vinith/Desktop/github_unity_vinith_3.4.1/AdView_Unity3D_Android_SDK-3.4.1-master/AdViewTestDemoEN/app/src/main/AndroidManifest.xml:126:13-60
+	android:name
+		ADDED from /Users/vinith/Desktop/github_unity_vinith_3.4.1/AdView_Unity3D_Android_SDK-3.4.1-master/AdViewTestDemoEN/app/src/main/AndroidManifest.xml:124:13-59
+activity#com.suntengmob.sdk.activity.InterstitialActivity
+ADDED from /Users/vinith/Desktop/github_unity_vinith_3.4.1/AdView_Unity3D_Android_SDK-3.4.1-master/AdViewTestDemoEN/app/src/main/AndroidManifest.xml:128:9-130:115
+	android:configChanges
+		ADDED from /Users/vinith/Desktop/github_unity_vinith_3.4.1/AdView_Unity3D_Android_SDK-3.4.1-master/AdViewTestDemoEN/app/src/main/AndroidManifest.xml:130:19-112
+	android:theme
+		ADDED from /Users/vinith/Desktop/github_unity_vinith_3.4.1/AdView_Unity3D_Android_SDK-3.4.1-master/AdViewTestDemoEN/app/src/main/AndroidManifest.xml:129:19-67
+	android:name
+		ADDED from /Users/vinith/Desktop/github_unity_vinith_3.4.1/AdView_Unity3D_Android_SDK-3.4.1-master/AdViewTestDemoEN/app/src/main/AndroidManifest.xml:128:19-82
+activity#com.suntengmob.sdk.activity.BrowserAdActivity
+ADDED from /Users/vinith/Desktop/github_unity_vinith_3.4.1/AdView_Unity3D_Android_SDK-3.4.1-master/AdViewTestDemoEN/app/src/main/AndroidManifest.xml:132:9-133:115
+	android:configChanges
+		ADDED from /Users/vinith/Desktop/github_unity_vinith_3.4.1/AdView_Unity3D_Android_SDK-3.4.1-master/AdViewTestDemoEN/app/src/main/AndroidManifest.xml:133:19-112
+	android:name
+		ADDED from /Users/vinith/Desktop/github_unity_vinith_3.4.1/AdView_Unity3D_Android_SDK-3.4.1-master/AdViewTestDemoEN/app/src/main/AndroidManifest.xml:132:19-79
+activity#com.suntengmob.sdk.activity.SplashActivity
+ADDED from /Users/vinith/Desktop/github_unity_vinith_3.4.1/AdView_Unity3D_Android_SDK-3.4.1-master/AdViewTestDemoEN/app/src/main/AndroidManifest.xml:135:9-137:115
+	android:screenOrientation
+		ADDED from /Users/vinith/Desktop/github_unity_vinith_3.4.1/AdView_Unity3D_Android_SDK-3.4.1-master/AdViewTestDemoEN/app/src/main/AndroidManifest.xml:136:19-55
+	android:configChanges
+		ADDED from /Users/vinith/Desktop/github_unity_vinith_3.4.1/AdView_Unity3D_Android_SDK-3.4.1-master/AdViewTestDemoEN/app/src/main/AndroidManifest.xml:137:19-112
+	android:name
+		ADDED from /Users/vinith/Desktop/github_unity_vinith_3.4.1/AdView_Unity3D_Android_SDK-3.4.1-master/AdViewTestDemoEN/app/src/main/AndroidManifest.xml:135:19-76
+activity#cn.pro.sdk.AdActivity
+ADDED from /Users/vinith/Desktop/github_unity_vinith_3.4.1/AdView_Unity3D_Android_SDK-3.4.1-master/AdViewTestDemoEN/app/src/main/AndroidManifest.xml:140:9-150:20
+	android:launchMode
+		ADDED from /Users/vinith/Desktop/github_unity_vinith_3.4.1/AdView_Unity3D_Android_SDK-3.4.1-master/AdViewTestDemoEN/app/src/main/AndroidManifest.xml:142:13-48
+	android:theme
+		ADDED from /Users/vinith/Desktop/github_unity_vinith_3.4.1/AdView_Unity3D_Android_SDK-3.4.1-master/AdViewTestDemoEN/app/src/main/AndroidManifest.xml:143:13-72
+	android:name
+		ADDED from /Users/vinith/Desktop/github_unity_vinith_3.4.1/AdView_Unity3D_Android_SDK-3.4.1-master/AdViewTestDemoEN/app/src/main/AndroidManifest.xml:141:13-49
+intent-filter#android.intent.action.VIEW+android.intent.category.BROWSABLE+android.intent.category.DEFAULT
+ADDED from /Users/vinith/Desktop/github_unity_vinith_3.4.1/AdView_Unity3D_Android_SDK-3.4.1-master/AdViewTestDemoEN/app/src/main/AndroidManifest.xml:144:13-149:29
+action#android.intent.action.VIEW
+ADDED from /Users/vinith/Desktop/github_unity_vinith_3.4.1/AdView_Unity3D_Android_SDK-3.4.1-master/AdViewTestDemoEN/app/src/main/AndroidManifest.xml:145:17-68
+	android:name
+		ADDED from /Users/vinith/Desktop/github_unity_vinith_3.4.1/AdView_Unity3D_Android_SDK-3.4.1-master/AdViewTestDemoEN/app/src/main/AndroidManifest.xml:145:25-66
+category#android.intent.category.DEFAULT
+ADDED from /Users/vinith/Desktop/github_unity_vinith_3.4.1/AdView_Unity3D_Android_SDK-3.4.1-master/AdViewTestDemoEN/app/src/main/AndroidManifest.xml:146:17-75
+	android:name
+		ADDED from /Users/vinith/Desktop/github_unity_vinith_3.4.1/AdView_Unity3D_Android_SDK-3.4.1-master/AdViewTestDemoEN/app/src/main/AndroidManifest.xml:146:27-73
+category#android.intent.category.BROWSABLE
+ADDED from /Users/vinith/Desktop/github_unity_vinith_3.4.1/AdView_Unity3D_Android_SDK-3.4.1-master/AdViewTestDemoEN/app/src/main/AndroidManifest.xml:147:17-77
+	android:name
+		ADDED from /Users/vinith/Desktop/github_unity_vinith_3.4.1/AdView_Unity3D_Android_SDK-3.4.1-master/AdViewTestDemoEN/app/src/main/AndroidManifest.xml:147:27-75
+data
+ADDED from /Users/vinith/Desktop/github_unity_vinith_3.4.1/AdView_Unity3D_Android_SDK-3.4.1-master/AdViewTestDemoEN/app/src/main/AndroidManifest.xml:148:17-47
+	android:scheme
+		ADDED from /Users/vinith/Desktop/github_unity_vinith_3.4.1/AdView_Unity3D_Android_SDK-3.4.1-master/AdViewTestDemoEN/app/src/main/AndroidManifest.xml:148:23-45
+activity#com.jd.jdadsdk.JDAdBrowser
+ADDED from /Users/vinith/Desktop/github_unity_vinith_3.4.1/AdView_Unity3D_Android_SDK-3.4.1-master/AdViewTestDemoEN/app/src/main/AndroidManifest.xml:153:9-155:52
+	android:screenOrientation
+		ADDED from /Users/vinith/Desktop/github_unity_vinith_3.4.1/AdView_Unity3D_Android_SDK-3.4.1-master/AdViewTestDemoEN/app/src/main/AndroidManifest.xml:155:13-49
+	android:name
+		ADDED from /Users/vinith/Desktop/github_unity_vinith_3.4.1/AdView_Unity3D_Android_SDK-3.4.1-master/AdViewTestDemoEN/app/src/main/AndroidManifest.xml:154:13-54
+activity#com.inmobi.rendering.InMobiAdActivity
+ADDED from /Users/vinith/Desktop/github_unity_vinith_3.4.1/AdView_Unity3D_Android_SDK-3.4.1-master/AdViewTestDemoEN/app/src/main/AndroidManifest.xml:158:9-162:75
+	android:hardwareAccelerated
+		ADDED from /Users/vinith/Desktop/github_unity_vinith_3.4.1/AdView_Unity3D_Android_SDK-3.4.1-master/AdViewTestDemoEN/app/src/main/AndroidManifest.xml:161:13-47
+	android:configChanges
+		ADDED from /Users/vinith/Desktop/github_unity_vinith_3.4.1/AdView_Unity3D_Android_SDK-3.4.1-master/AdViewTestDemoEN/app/src/main/AndroidManifest.xml:160:13-102
+	android:theme
+		ADDED from /Users/vinith/Desktop/github_unity_vinith_3.4.1/AdView_Unity3D_Android_SDK-3.4.1-master/AdViewTestDemoEN/app/src/main/AndroidManifest.xml:162:13-72
+	android:name
+		ADDED from /Users/vinith/Desktop/github_unity_vinith_3.4.1/AdView_Unity3D_Android_SDK-3.4.1-master/AdViewTestDemoEN/app/src/main/AndroidManifest.xml:159:13-65
+receiver#com.inmobi.commons.core.utilities.uid.ImIdShareBroadCastReceiver
+ADDED from /Users/vinith/Desktop/github_unity_vinith_3.4.1/AdView_Unity3D_Android_SDK-3.4.1-master/AdViewTestDemoEN/app/src/main/AndroidManifest.xml:163:9-170:20
+	android:enabled
+		ADDED from /Users/vinith/Desktop/github_unity_vinith_3.4.1/AdView_Unity3D_Android_SDK-3.4.1-master/AdViewTestDemoEN/app/src/main/AndroidManifest.xml:165:13-35
+	android:exported
+		ADDED from /Users/vinith/Desktop/github_unity_vinith_3.4.1/AdView_Unity3D_Android_SDK-3.4.1-master/AdViewTestDemoEN/app/src/main/AndroidManifest.xml:166:13-36
+	android:name
+		ADDED from /Users/vinith/Desktop/github_unity_vinith_3.4.1/AdView_Unity3D_Android_SDK-3.4.1-master/AdViewTestDemoEN/app/src/main/AndroidManifest.xml:164:13-92
+intent-filter#com.inmobi.share.id
+ADDED from /Users/vinith/Desktop/github_unity_vinith_3.4.1/AdView_Unity3D_Android_SDK-3.4.1-master/AdViewTestDemoEN/app/src/main/AndroidManifest.xml:167:13-169:29
+action#com.inmobi.share.id
+ADDED from /Users/vinith/Desktop/github_unity_vinith_3.4.1/AdView_Unity3D_Android_SDK-3.4.1-master/AdViewTestDemoEN/app/src/main/AndroidManifest.xml:168:17-62
+	android:name
+		ADDED from /Users/vinith/Desktop/github_unity_vinith_3.4.1/AdView_Unity3D_Android_SDK-3.4.1-master/AdViewTestDemoEN/app/src/main/AndroidManifest.xml:168:25-59
+service#com.inmobi.signals.activityrecognition.ActivityRecognitionManager
+ADDED from /Users/vinith/Desktop/github_unity_vinith_3.4.1/AdView_Unity3D_Android_SDK-3.4.1-master/AdViewTestDemoEN/app/src/main/AndroidManifest.xml:172:9-174:38
+	android:enabled
+		ADDED from /Users/vinith/Desktop/github_unity_vinith_3.4.1/AdView_Unity3D_Android_SDK-3.4.1-master/AdViewTestDemoEN/app/src/main/AndroidManifest.xml:174:13-35
+	android:name
+		ADDED from /Users/vinith/Desktop/github_unity_vinith_3.4.1/AdView_Unity3D_Android_SDK-3.4.1-master/AdViewTestDemoEN/app/src/main/AndroidManifest.xml:173:13-93
+service#com.mediav.ads.sdk.service.MvService
+ADDED from /Users/vinith/Desktop/github_unity_vinith_3.4.1/AdView_Unity3D_Android_SDK-3.4.1-master/AdViewTestDemoEN/app/src/main/AndroidManifest.xml:177:9-180:40
+	android:enabled
+		ADDED from /Users/vinith/Desktop/github_unity_vinith_3.4.1/AdView_Unity3D_Android_SDK-3.4.1-master/AdViewTestDemoEN/app/src/main/AndroidManifest.xml:179:13-35
+	android:exported
+		ADDED from /Users/vinith/Desktop/github_unity_vinith_3.4.1/AdView_Unity3D_Android_SDK-3.4.1-master/AdViewTestDemoEN/app/src/main/AndroidManifest.xml:180:13-37
+	android:name
+		ADDED from /Users/vinith/Desktop/github_unity_vinith_3.4.1/AdView_Unity3D_Android_SDK-3.4.1-master/AdViewTestDemoEN/app/src/main/AndroidManifest.xml:178:13-64
+activity#com.adwalker.wall.platform.layout.AdShowActivity
+ADDED from /Users/vinith/Desktop/github_unity_vinith_3.4.1/AdView_Unity3D_Android_SDK-3.4.1-master/AdViewTestDemoEN/app/src/main/AndroidManifest.xml:183:9-186:20
+	android:configChanges
+		ADDED from /Users/vinith/Desktop/github_unity_vinith_3.4.1/AdView_Unity3D_Android_SDK-3.4.1-master/AdViewTestDemoEN/app/src/main/AndroidManifest.xml:185:13-63
+	android:name
+		ADDED from /Users/vinith/Desktop/github_unity_vinith_3.4.1/AdView_Unity3D_Android_SDK-3.4.1-master/AdViewTestDemoEN/app/src/main/AndroidManifest.xml:184:13-76
+activity#com.adwalker.wall.platform.layout.AdDetailActivity
+ADDED from /Users/vinith/Desktop/github_unity_vinith_3.4.1/AdView_Unity3D_Android_SDK-3.4.1-master/AdViewTestDemoEN/app/src/main/AndroidManifest.xml:187:9-189:66
+	android:configChanges
+		ADDED from /Users/vinith/Desktop/github_unity_vinith_3.4.1/AdView_Unity3D_Android_SDK-3.4.1-master/AdViewTestDemoEN/app/src/main/AndroidManifest.xml:189:13-63
+	android:name
+		ADDED from /Users/vinith/Desktop/github_unity_vinith_3.4.1/AdView_Unity3D_Android_SDK-3.4.1-master/AdViewTestDemoEN/app/src/main/AndroidManifest.xml:188:13-78
+activity#com.adwalker.wall.platform.layout.AdShowWebActivity
+ADDED from /Users/vinith/Desktop/github_unity_vinith_3.4.1/AdView_Unity3D_Android_SDK-3.4.1-master/AdViewTestDemoEN/app/src/main/AndroidManifest.xml:190:9-192:66
+	android:configChanges
+		ADDED from /Users/vinith/Desktop/github_unity_vinith_3.4.1/AdView_Unity3D_Android_SDK-3.4.1-master/AdViewTestDemoEN/app/src/main/AndroidManifest.xml:192:13-63
+	android:name
+		ADDED from /Users/vinith/Desktop/github_unity_vinith_3.4.1/AdView_Unity3D_Android_SDK-3.4.1-master/AdViewTestDemoEN/app/src/main/AndroidManifest.xml:191:13-79
+activity#cn.aduu.android.AdActivity
+ADDED from /Users/vinith/Desktop/github_unity_vinith_3.4.1/AdView_Unity3D_Android_SDK-3.4.1-master/AdViewTestDemoEN/app/src/main/AndroidManifest.xml:215:9-218:20
+	android:theme
+		ADDED from /Users/vinith/Desktop/github_unity_vinith_3.4.1/AdView_Unity3D_Android_SDK-3.4.1-master/AdViewTestDemoEN/app/src/main/AndroidManifest.xml:217:13-61
+	android:name
+		ADDED from /Users/vinith/Desktop/github_unity_vinith_3.4.1/AdView_Unity3D_Android_SDK-3.4.1-master/AdViewTestDemoEN/app/src/main/AndroidManifest.xml:216:13-54
+activity#com.donson.momark.activity.AdActivity
+ADDED from /Users/vinith/Desktop/github_unity_vinith_3.4.1/AdView_Unity3D_Android_SDK-3.4.1-master/AdViewTestDemoEN/app/src/main/AndroidManifest.xml:221:9-227:20
+	android:launchMode
+		ADDED from /Users/vinith/Desktop/github_unity_vinith_3.4.1/AdView_Unity3D_Android_SDK-3.4.1-master/AdViewTestDemoEN/app/src/main/AndroidManifest.xml:223:13-43
+	android:name
+		ADDED from /Users/vinith/Desktop/github_unity_vinith_3.4.1/AdView_Unity3D_Android_SDK-3.4.1-master/AdViewTestDemoEN/app/src/main/AndroidManifest.xml:222:13-65
+intent-filter#android.intent.action.MAIN
+ADDED from /Users/vinith/Desktop/github_unity_vinith_3.4.1/AdView_Unity3D_Android_SDK-3.4.1-master/AdViewTestDemoEN/app/src/main/AndroidManifest.xml:224:13-226:29
+activity#cn.domob.android.ads.DmActivity
+ADDED from /Users/vinith/Desktop/github_unity_vinith_3.4.1/AdView_Unity3D_Android_SDK-3.4.1-master/AdViewTestDemoEN/app/src/main/AndroidManifest.xml:230:9-232:64
+	android:theme
+		ADDED from /Users/vinith/Desktop/github_unity_vinith_3.4.1/AdView_Unity3D_Android_SDK-3.4.1-master/AdViewTestDemoEN/app/src/main/AndroidManifest.xml:232:13-61
+	android:name
+		ADDED from /Users/vinith/Desktop/github_unity_vinith_3.4.1/AdView_Unity3D_Android_SDK-3.4.1-master/AdViewTestDemoEN/app/src/main/AndroidManifest.xml:231:13-59
+activity#net.youmi.android.normal.video.VideoActivity
+ADDED from /Users/vinith/Desktop/github_unity_vinith_3.4.1/AdView_Unity3D_Android_SDK-3.4.1-master/AdViewTestDemoEN/app/src/main/AndroidManifest.xml:235:9-240:20
+	android:screenOrientation
+		ADDED from /Users/vinith/Desktop/github_unity_vinith_3.4.1/AdView_Unity3D_Android_SDK-3.4.1-master/AdViewTestDemoEN/app/src/main/AndroidManifest.xml:238:13-50
+	android:configChanges
+		ADDED from /Users/vinith/Desktop/github_unity_vinith_3.4.1/AdView_Unity3D_Android_SDK-3.4.1-master/AdViewTestDemoEN/app/src/main/AndroidManifest.xml:237:13-83
+	android:theme
+		ADDED from /Users/vinith/Desktop/github_unity_vinith_3.4.1/AdView_Unity3D_Android_SDK-3.4.1-master/AdViewTestDemoEN/app/src/main/AndroidManifest.xml:239:13-60
+	android:name
+		ADDED from /Users/vinith/Desktop/github_unity_vinith_3.4.1/AdView_Unity3D_Android_SDK-3.4.1-master/AdViewTestDemoEN/app/src/main/AndroidManifest.xml:236:13-72
+activity#net.youmi.android.AdBrowser
+ADDED from /Users/vinith/Desktop/github_unity_vinith_3.4.1/AdView_Unity3D_Android_SDK-3.4.1-master/AdViewTestDemoEN/app/src/main/AndroidManifest.xml:242:9-246:20
+	android:configChanges
+		ADDED from /Users/vinith/Desktop/github_unity_vinith_3.4.1/AdView_Unity3D_Android_SDK-3.4.1-master/AdViewTestDemoEN/app/src/main/AndroidManifest.xml:244:13-83
+	android:theme
+		ADDED from /Users/vinith/Desktop/github_unity_vinith_3.4.1/AdView_Unity3D_Android_SDK-3.4.1-master/AdViewTestDemoEN/app/src/main/AndroidManifest.xml:245:13-60
+	android:name
+		ADDED from /Users/vinith/Desktop/github_unity_vinith_3.4.1/AdView_Unity3D_Android_SDK-3.4.1-master/AdViewTestDemoEN/app/src/main/AndroidManifest.xml:243:13-55
+service#net.youmi.android.AdService
+ADDED from /Users/vinith/Desktop/github_unity_vinith_3.4.1/AdView_Unity3D_Android_SDK-3.4.1-master/AdViewTestDemoEN/app/src/main/AndroidManifest.xml:248:9-251:19
+	android:exported
+		ADDED from /Users/vinith/Desktop/github_unity_vinith_3.4.1/AdView_Unity3D_Android_SDK-3.4.1-master/AdViewTestDemoEN/app/src/main/AndroidManifest.xml:250:13-37
+	android:name
+		ADDED from /Users/vinith/Desktop/github_unity_vinith_3.4.1/AdView_Unity3D_Android_SDK-3.4.1-master/AdViewTestDemoEN/app/src/main/AndroidManifest.xml:249:13-55
+receiver#net.youmi.android.AdReceiver
+ADDED from /Users/vinith/Desktop/github_unity_vinith_3.4.1/AdView_Unity3D_Android_SDK-3.4.1-master/AdViewTestDemoEN/app/src/main/AndroidManifest.xml:253:9-260:20
+	android:name
+		ADDED from /Users/vinith/Desktop/github_unity_vinith_3.4.1/AdView_Unity3D_Android_SDK-3.4.1-master/AdViewTestDemoEN/app/src/main/AndroidManifest.xml:253:19-62
+intent-filter#android.intent.action.PACKAGE_ADDED+android.intent.action.PACKAGE_INSTALL
+ADDED from /Users/vinith/Desktop/github_unity_vinith_3.4.1/AdView_Unity3D_Android_SDK-3.4.1-master/AdViewTestDemoEN/app/src/main/AndroidManifest.xml:254:13-259:29
+action#android.intent.action.PACKAGE_ADDED
+ADDED from /Users/vinith/Desktop/github_unity_vinith_3.4.1/AdView_Unity3D_Android_SDK-3.4.1-master/AdViewTestDemoEN/app/src/main/AndroidManifest.xml:255:17-77
+	android:name
+		ADDED from /Users/vinith/Desktop/github_unity_vinith_3.4.1/AdView_Unity3D_Android_SDK-3.4.1-master/AdViewTestDemoEN/app/src/main/AndroidManifest.xml:255:25-75
+action#android.intent.action.PACKAGE_INSTALL
+ADDED from /Users/vinith/Desktop/github_unity_vinith_3.4.1/AdView_Unity3D_Android_SDK-3.4.1-master/AdViewTestDemoEN/app/src/main/AndroidManifest.xml:256:17-79
+	android:name
+		ADDED from /Users/vinith/Desktop/github_unity_vinith_3.4.1/AdView_Unity3D_Android_SDK-3.4.1-master/AdViewTestDemoEN/app/src/main/AndroidManifest.xml:256:25-77
+activity#com.wqmobile.sdk.WQActionHandler
+ADDED from /Users/vinith/Desktop/github_unity_vinith_3.4.1/AdView_Unity3D_Android_SDK-3.4.1-master/AdViewTestDemoEN/app/src/main/AndroidManifest.xml:263:9-265:77
+	android:configChanges
+		ADDED from /Users/vinith/Desktop/github_unity_vinith_3.4.1/AdView_Unity3D_Android_SDK-3.4.1-master/AdViewTestDemoEN/app/src/main/AndroidManifest.xml:265:13-74
+	android:name
+		ADDED from /Users/vinith/Desktop/github_unity_vinith_3.4.1/AdView_Unity3D_Android_SDK-3.4.1-master/AdViewTestDemoEN/app/src/main/AndroidManifest.xml:264:13-60
+activity#com.wqmobile.sdk.WQBrowser
+ADDED from /Users/vinith/Desktop/github_unity_vinith_3.4.1/AdView_Unity3D_Android_SDK-3.4.1-master/AdViewTestDemoEN/app/src/main/AndroidManifest.xml:266:9-270:64
+	android:hardwareAccelerated
+		ADDED from /Users/vinith/Desktop/github_unity_vinith_3.4.1/AdView_Unity3D_Android_SDK-3.4.1-master/AdViewTestDemoEN/app/src/main/AndroidManifest.xml:269:13-47
+	android:configChanges
+		ADDED from /Users/vinith/Desktop/github_unity_vinith_3.4.1/AdView_Unity3D_Android_SDK-3.4.1-master/AdViewTestDemoEN/app/src/main/AndroidManifest.xml:268:13-74
+	android:theme
+		ADDED from /Users/vinith/Desktop/github_unity_vinith_3.4.1/AdView_Unity3D_Android_SDK-3.4.1-master/AdViewTestDemoEN/app/src/main/AndroidManifest.xml:270:13-61
+	android:name
+		ADDED from /Users/vinith/Desktop/github_unity_vinith_3.4.1/AdView_Unity3D_Android_SDK-3.4.1-master/AdViewTestDemoEN/app/src/main/AndroidManifest.xml:267:13-54
+activity#com.kyview.screen.interstitial.adapters.WqActivity
+ADDED from /Users/vinith/Desktop/github_unity_vinith_3.4.1/AdView_Unity3D_Android_SDK-3.4.1-master/AdViewTestDemoEN/app/src/main/AndroidManifest.xml:271:9-273:64
+	android:theme
+		ADDED from /Users/vinith/Desktop/github_unity_vinith_3.4.1/AdView_Unity3D_Android_SDK-3.4.1-master/AdViewTestDemoEN/app/src/main/AndroidManifest.xml:273:13-61
+	android:name
+		ADDED from /Users/vinith/Desktop/github_unity_vinith_3.4.1/AdView_Unity3D_Android_SDK-3.4.1-master/AdViewTestDemoEN/app/src/main/AndroidManifest.xml:272:13-78
+activity#com.otomod.ad.AdActivity
+ADDED from /Users/vinith/Desktop/github_unity_vinith_3.4.1/AdView_Unity3D_Android_SDK-3.4.1-master/AdViewTestDemoEN/app/src/main/AndroidManifest.xml:277:9-281:20
+	android:name
+		ADDED from /Users/vinith/Desktop/github_unity_vinith_3.4.1/AdView_Unity3D_Android_SDK-3.4.1-master/AdViewTestDemoEN/app/src/main/AndroidManifest.xml:277:19-58
+intent-filter#android.intent.category.DEFAULT
+ADDED from /Users/vinith/Desktop/github_unity_vinith_3.4.1/AdView_Unity3D_Android_SDK-3.4.1-master/AdViewTestDemoEN/app/src/main/AndroidManifest.xml:278:13-280:29
+activity#com.chance.ads.AdActivity
+ADDED from /Users/vinith/Desktop/github_unity_vinith_3.4.1/AdView_Unity3D_Android_SDK-3.4.1-master/AdViewTestDemoEN/app/src/main/AndroidManifest.xml:312:9-315:20
+	android:theme
+		ADDED from /Users/vinith/Desktop/github_unity_vinith_3.4.1/AdView_Unity3D_Android_SDK-3.4.1-master/AdViewTestDemoEN/app/src/main/AndroidManifest.xml:314:13-61
+	android:name
+		ADDED from /Users/vinith/Desktop/github_unity_vinith_3.4.1/AdView_Unity3D_Android_SDK-3.4.1-master/AdViewTestDemoEN/app/src/main/AndroidManifest.xml:313:13-53
+service#com.chance.engine.AdService
+ADDED from /Users/vinith/Desktop/github_unity_vinith_3.4.1/AdView_Unity3D_Android_SDK-3.4.1-master/AdViewTestDemoEN/app/src/main/AndroidManifest.xml:317:9-324:19
+	android:process
+		ADDED from /Users/vinith/Desktop/github_unity_vinith_3.4.1/AdView_Unity3D_Android_SDK-3.4.1-master/AdViewTestDemoEN/app/src/main/AndroidManifest.xml:320:13-51
+	android:exported
+		ADDED from /Users/vinith/Desktop/github_unity_vinith_3.4.1/AdView_Unity3D_Android_SDK-3.4.1-master/AdViewTestDemoEN/app/src/main/AndroidManifest.xml:319:13-36
+	android:name
+		ADDED from /Users/vinith/Desktop/github_unity_vinith_3.4.1/AdView_Unity3D_Android_SDK-3.4.1-master/AdViewTestDemoEN/app/src/main/AndroidManifest.xml:318:13-55
+intent-filter#com.chance.service
+ADDED from /Users/vinith/Desktop/github_unity_vinith_3.4.1/AdView_Unity3D_Android_SDK-3.4.1-master/AdViewTestDemoEN/app/src/main/AndroidManifest.xml:321:13-323:29
+action#com.chance.service
+ADDED from /Users/vinith/Desktop/github_unity_vinith_3.4.1/AdView_Unity3D_Android_SDK-3.4.1-master/AdViewTestDemoEN/app/src/main/AndroidManifest.xml:322:17-61
+	android:name
+		ADDED from /Users/vinith/Desktop/github_unity_vinith_3.4.1/AdView_Unity3D_Android_SDK-3.4.1-master/AdViewTestDemoEN/app/src/main/AndroidManifest.xml:322:25-58
+service#com.qq.e.comm.DownloadService
+ADDED from /Users/vinith/Desktop/github_unity_vinith_3.4.1/AdView_Unity3D_Android_SDK-3.4.1-master/AdViewTestDemoEN/app/src/main/AndroidManifest.xml:327:9-330:19
+	android:exported
+		ADDED from /Users/vinith/Desktop/github_unity_vinith_3.4.1/AdView_Unity3D_Android_SDK-3.4.1-master/AdViewTestDemoEN/app/src/main/AndroidManifest.xml:329:13-37
+	android:name
+		ADDED from /Users/vinith/Desktop/github_unity_vinith_3.4.1/AdView_Unity3D_Android_SDK-3.4.1-master/AdViewTestDemoEN/app/src/main/AndroidManifest.xml:328:13-57
+activity#com.qq.e.ads.ADActivity
+ADDED from /Users/vinith/Desktop/github_unity_vinith_3.4.1/AdView_Unity3D_Android_SDK-3.4.1-master/AdViewTestDemoEN/app/src/main/AndroidManifest.xml:332:9-336:20
+	android:configChanges
+		ADDED from /Users/vinith/Desktop/github_unity_vinith_3.4.1/AdView_Unity3D_Android_SDK-3.4.1-master/AdViewTestDemoEN/app/src/main/AndroidManifest.xml:334:13-72
+	android:theme
+		ADDED from /Users/vinith/Desktop/github_unity_vinith_3.4.1/AdView_Unity3D_Android_SDK-3.4.1-master/AdViewTestDemoEN/app/src/main/AndroidManifest.xml:335:13-61
+	android:name
+		ADDED from /Users/vinith/Desktop/github_unity_vinith_3.4.1/AdView_Unity3D_Android_SDK-3.4.1-master/AdViewTestDemoEN/app/src/main/AndroidManifest.xml:333:13-51
+service#com.easou.ecom.mads.service.DownloadService
+ADDED from /Users/vinith/Desktop/github_unity_vinith_3.4.1/AdView_Unity3D_Android_SDK-3.4.1-master/AdViewTestDemoEN/app/src/main/AndroidManifest.xml:339:9-341:40
+	android:exported
+		ADDED from /Users/vinith/Desktop/github_unity_vinith_3.4.1/AdView_Unity3D_Android_SDK-3.4.1-master/AdViewTestDemoEN/app/src/main/AndroidManifest.xml:341:13-37
+	android:name
+		ADDED from /Users/vinith/Desktop/github_unity_vinith_3.4.1/AdView_Unity3D_Android_SDK-3.4.1-master/AdViewTestDemoEN/app/src/main/AndroidManifest.xml:340:13-71
+activity#com.easou.ecom.mads.AdActivity
+ADDED from /Users/vinith/Desktop/github_unity_vinith_3.4.1/AdView_Unity3D_Android_SDK-3.4.1-master/AdViewTestDemoEN/app/src/main/AndroidManifest.xml:343:9-346:52
+	android:screenOrientation
+		ADDED from /Users/vinith/Desktop/github_unity_vinith_3.4.1/AdView_Unity3D_Android_SDK-3.4.1-master/AdViewTestDemoEN/app/src/main/AndroidManifest.xml:346:13-49
+	android:configChanges
+		ADDED from /Users/vinith/Desktop/github_unity_vinith_3.4.1/AdView_Unity3D_Android_SDK-3.4.1-master/AdViewTestDemoEN/app/src/main/AndroidManifest.xml:345:13-72
+	android:name
+		ADDED from /Users/vinith/Desktop/github_unity_vinith_3.4.1/AdView_Unity3D_Android_SDK-3.4.1-master/AdViewTestDemoEN/app/src/main/AndroidManifest.xml:344:13-58
+activity#com.adroi.sdk.AppActivity
+ADDED from /Users/vinith/Desktop/github_unity_vinith_3.4.1/AdView_Unity3D_Android_SDK-3.4.1-master/AdViewTestDemoEN/app/src/main/AndroidManifest.xml:349:9-352:52
+	android:screenOrientation
+		ADDED from /Users/vinith/Desktop/github_unity_vinith_3.4.1/AdView_Unity3D_Android_SDK-3.4.1-master/AdViewTestDemoEN/app/src/main/AndroidManifest.xml:352:13-49
+	android:configChanges
+		ADDED from /Users/vinith/Desktop/github_unity_vinith_3.4.1/AdView_Unity3D_Android_SDK-3.4.1-master/AdViewTestDemoEN/app/src/main/AndroidManifest.xml:351:13-72
+	android:name
+		ADDED from /Users/vinith/Desktop/github_unity_vinith_3.4.1/AdView_Unity3D_Android_SDK-3.4.1-master/AdViewTestDemoEN/app/src/main/AndroidManifest.xml:350:13-53
+activity#com.mopanspot.sdk.MopanSpotActivity
+ADDED from /Users/vinith/Desktop/github_unity_vinith_3.4.1/AdView_Unity3D_Android_SDK-3.4.1-master/AdViewTestDemoEN/app/src/main/AndroidManifest.xml:355:9-357:75
+	android:theme
+		ADDED from /Users/vinith/Desktop/github_unity_vinith_3.4.1/AdView_Unity3D_Android_SDK-3.4.1-master/AdViewTestDemoEN/app/src/main/AndroidManifest.xml:357:13-72
+	android:name
+		ADDED from /Users/vinith/Desktop/github_unity_vinith_3.4.1/AdView_Unity3D_Android_SDK-3.4.1-master/AdViewTestDemoEN/app/src/main/AndroidManifest.xml:356:13-63
+service#com.mopanspot.sdk.pluginmgr.MoPanLanchMonitorService
+ADDED from /Users/vinith/Desktop/github_unity_vinith_3.4.1/AdView_Unity3D_Android_SDK-3.4.1-master/AdViewTestDemoEN/app/src/main/AndroidManifest.xml:359:9-363:19
+	android:name
+		ADDED from /Users/vinith/Desktop/github_unity_vinith_3.4.1/AdView_Unity3D_Android_SDK-3.4.1-master/AdViewTestDemoEN/app/src/main/AndroidManifest.xml:359:18-85
+intent-filter#com.mopan.spot.service
+ADDED from /Users/vinith/Desktop/github_unity_vinith_3.4.1/AdView_Unity3D_Android_SDK-3.4.1-master/AdViewTestDemoEN/app/src/main/AndroidManifest.xml:360:13-362:29
+action#com.mopan.spot.service
+ADDED from /Users/vinith/Desktop/github_unity_vinith_3.4.1/AdView_Unity3D_Android_SDK-3.4.1-master/AdViewTestDemoEN/app/src/main/AndroidManifest.xml:361:17-65
+	android:name
+		ADDED from /Users/vinith/Desktop/github_unity_vinith_3.4.1/AdView_Unity3D_Android_SDK-3.4.1-master/AdViewTestDemoEN/app/src/main/AndroidManifest.xml:361:25-62
+activity#com.adchina.android.ads.views.AdBrowserView
+ADDED from /Users/vinith/Desktop/github_unity_vinith_3.4.1/AdView_Unity3D_Android_SDK-3.4.1-master/AdViewTestDemoEN/app/src/main/AndroidManifest.xml:366:9-369:64
+	android:configChanges
+		ADDED from /Users/vinith/Desktop/github_unity_vinith_3.4.1/AdView_Unity3D_Android_SDK-3.4.1-master/AdViewTestDemoEN/app/src/main/AndroidManifest.xml:368:13-72
+	android:theme
+		ADDED from /Users/vinith/Desktop/github_unity_vinith_3.4.1/AdView_Unity3D_Android_SDK-3.4.1-master/AdViewTestDemoEN/app/src/main/AndroidManifest.xml:369:13-61
+	android:name
+		ADDED from /Users/vinith/Desktop/github_unity_vinith_3.4.1/AdView_Unity3D_Android_SDK-3.4.1-master/AdViewTestDemoEN/app/src/main/AndroidManifest.xml:367:13-71
+receiver#com.adchina.android.ads.views.AdCompleteReceiver
+ADDED from /Users/vinith/Desktop/github_unity_vinith_3.4.1/AdView_Unity3D_Android_SDK-3.4.1-master/AdViewTestDemoEN/app/src/main/AndroidManifest.xml:371:9-375:20
+	android:name
+		ADDED from /Users/vinith/Desktop/github_unity_vinith_3.4.1/AdView_Unity3D_Android_SDK-3.4.1-master/AdViewTestDemoEN/app/src/main/AndroidManifest.xml:371:19-82
+intent-filter#android.intent.action.DOWNLOAD_COMPLETE
+ADDED from /Users/vinith/Desktop/github_unity_vinith_3.4.1/AdView_Unity3D_Android_SDK-3.4.1-master/AdViewTestDemoEN/app/src/main/AndroidManifest.xml:372:13-374:29
+action#android.intent.action.DOWNLOAD_COMPLETE
+ADDED from /Users/vinith/Desktop/github_unity_vinith_3.4.1/AdView_Unity3D_Android_SDK-3.4.1-master/AdViewTestDemoEN/app/src/main/AndroidManifest.xml:373:17-82
+	android:name
+		ADDED from /Users/vinith/Desktop/github_unity_vinith_3.4.1/AdView_Unity3D_Android_SDK-3.4.1-master/AdViewTestDemoEN/app/src/main/AndroidManifest.xml:373:25-79
+activity#com.mobisage.android.MobiSageActivity
+ADDED from /Users/vinith/Desktop/github_unity_vinith_3.4.1/AdView_Unity3D_Android_SDK-3.4.1-master/AdViewTestDemoEN/app/src/main/AndroidManifest.xml:378:9-381:20
+	android:configChanges
+		ADDED from /Users/vinith/Desktop/github_unity_vinith_3.4.1/AdView_Unity3D_Android_SDK-3.4.1-master/AdViewTestDemoEN/app/src/main/AndroidManifest.xml:380:13-74
+	android:name
+		ADDED from /Users/vinith/Desktop/github_unity_vinith_3.4.1/AdView_Unity3D_Android_SDK-3.4.1-master/AdViewTestDemoEN/app/src/main/AndroidManifest.xml:379:13-65
+activity#com.google.android.gms.ads.AdActivity
+ADDED from /Users/vinith/Desktop/github_unity_vinith_3.4.1/AdView_Unity3D_Android_SDK-3.4.1-master/AdViewTestDemoEN/app/src/main/AndroidManifest.xml:384:9-387:64
+	android:configChanges
+		ADDED from /Users/vinith/Desktop/github_unity_vinith_3.4.1/AdView_Unity3D_Android_SDK-3.4.1-master/AdViewTestDemoEN/app/src/main/AndroidManifest.xml:386:13-122
+	android:theme
+		ADDED from /Users/vinith/Desktop/github_unity_vinith_3.4.1/AdView_Unity3D_Android_SDK-3.4.1-master/AdViewTestDemoEN/app/src/main/AndroidManifest.xml:387:13-61
+	android:name
+		ADDED from /Users/vinith/Desktop/github_unity_vinith_3.4.1/AdView_Unity3D_Android_SDK-3.4.1-master/AdViewTestDemoEN/app/src/main/AndroidManifest.xml:385:13-65
+meta-data#com.google.android.gms.version
+ADDED from /Users/vinith/Desktop/github_unity_vinith_3.4.1/AdView_Unity3D_Android_SDK-3.4.1-master/AdViewTestDemoEN/app/src/main/AndroidManifest.xml:389:9-391:39
+	android:value
+		ADDED from /Users/vinith/Desktop/github_unity_vinith_3.4.1/AdView_Unity3D_Android_SDK-3.4.1-master/AdViewTestDemoEN/app/src/main/AndroidManifest.xml:391:13-36
+	android:name
+		ADDED from /Users/vinith/Desktop/github_unity_vinith_3.4.1/AdView_Unity3D_Android_SDK-3.4.1-master/AdViewTestDemoEN/app/src/main/AndroidManifest.xml:390:13-58
+activity#com.baidu.mobads.AppActivity
+ADDED from /Users/vinith/Desktop/github_unity_vinith_3.4.1/AdView_Unity3D_Android_SDK-3.4.1-master/AdViewTestDemoEN/app/src/main/AndroidManifest.xml:394:9-396:75
+	android:configChanges
+		ADDED from /Users/vinith/Desktop/github_unity_vinith_3.4.1/AdView_Unity3D_Android_SDK-3.4.1-master/AdViewTestDemoEN/app/src/main/AndroidManifest.xml:396:13-72
+	android:name
+		ADDED from /Users/vinith/Desktop/github_unity_vinith_3.4.1/AdView_Unity3D_Android_SDK-3.4.1-master/AdViewTestDemoEN/app/src/main/AndroidManifest.xml:395:13-56
+meta-data#BaiduMobAd_APP_ID
+ADDED from /Users/vinith/Desktop/github_unity_vinith_3.4.1/AdView_Unity3D_Android_SDK-3.4.1-master/AdViewTestDemoEN/app/src/main/AndroidManifest.xml:398:9-400:40
+	android:value
+		ADDED from /Users/vinith/Desktop/github_unity_vinith_3.4.1/AdView_Unity3D_Android_SDK-3.4.1-master/AdViewTestDemoEN/app/src/main/AndroidManifest.xml:400:13-37
+	android:name
+		ADDED from /Users/vinith/Desktop/github_unity_vinith_3.4.1/AdView_Unity3D_Android_SDK-3.4.1-master/AdViewTestDemoEN/app/src/main/AndroidManifest.xml:399:13-45
+meta-data#BaiduMobAd_APP_SEC
+ADDED from /Users/vinith/Desktop/github_unity_vinith_3.4.1/AdView_Unity3D_Android_SDK-3.4.1-master/AdViewTestDemoEN/app/src/main/AndroidManifest.xml:401:9-403:40
+	android:value
+		ADDED from /Users/vinith/Desktop/github_unity_vinith_3.4.1/AdView_Unity3D_Android_SDK-3.4.1-master/AdViewTestDemoEN/app/src/main/AndroidManifest.xml:403:13-37
+	android:name
+		ADDED from /Users/vinith/Desktop/github_unity_vinith_3.4.1/AdView_Unity3D_Android_SDK-3.4.1-master/AdViewTestDemoEN/app/src/main/AndroidManifest.xml:402:13-46
+activity#com.mt.airad.MultiAD
+ADDED from /Users/vinith/Desktop/github_unity_vinith_3.4.1/AdView_Unity3D_Android_SDK-3.4.1-master/AdViewTestDemoEN/app/src/main/AndroidManifest.xml:412:9-415:75
+	android:configChanges
+		ADDED from /Users/vinith/Desktop/github_unity_vinith_3.4.1/AdView_Unity3D_Android_SDK-3.4.1-master/AdViewTestDemoEN/app/src/main/AndroidManifest.xml:414:13-72
+	android:theme
+		ADDED from /Users/vinith/Desktop/github_unity_vinith_3.4.1/AdView_Unity3D_Android_SDK-3.4.1-master/AdViewTestDemoEN/app/src/main/AndroidManifest.xml:415:13-72
+	android:name
+		ADDED from /Users/vinith/Desktop/github_unity_vinith_3.4.1/AdView_Unity3D_Android_SDK-3.4.1-master/AdViewTestDemoEN/app/src/main/AndroidManifest.xml:413:13-48
+activity#cn.appmedia.ad.AdActivity
+ADDED from /Users/vinith/Desktop/github_unity_vinith_3.4.1/AdView_Unity3D_Android_SDK-3.4.1-master/AdViewTestDemoEN/app/src/main/AndroidManifest.xml:418:9-419:20
+	android:name
+		ADDED from /Users/vinith/Desktop/github_unity_vinith_3.4.1/AdView_Unity3D_Android_SDK-3.4.1-master/AdViewTestDemoEN/app/src/main/AndroidManifest.xml:418:19-59
+activity#cn.immob.sdk.util.LMActionHandler
+ADDED from /Users/vinith/Desktop/github_unity_vinith_3.4.1/AdView_Unity3D_Android_SDK-3.4.1-master/AdViewTestDemoEN/app/src/main/AndroidManifest.xml:422:9-423:20
+	android:name
+		ADDED from /Users/vinith/Desktop/github_unity_vinith_3.4.1/AdView_Unity3D_Android_SDK-3.4.1-master/AdViewTestDemoEN/app/src/main/AndroidManifest.xml:422:19-67
+service#cn.immob.sdk.net.DownloadService
+ADDED from /Users/vinith/Desktop/github_unity_vinith_3.4.1/AdView_Unity3D_Android_SDK-3.4.1-master/AdViewTestDemoEN/app/src/main/AndroidManifest.xml:425:9-426:19
+	android:name
+		ADDED from /Users/vinith/Desktop/github_unity_vinith_3.4.1/AdView_Unity3D_Android_SDK-3.4.1-master/AdViewTestDemoEN/app/src/main/AndroidManifest.xml:425:18-65
+service#cn.immob.sdk.service.GetLocationService
+ADDED from /Users/vinith/Desktop/github_unity_vinith_3.4.1/AdView_Unity3D_Android_SDK-3.4.1-master/AdViewTestDemoEN/app/src/main/AndroidManifest.xml:427:9-428:19
+	android:name
+		ADDED from /Users/vinith/Desktop/github_unity_vinith_3.4.1/AdView_Unity3D_Android_SDK-3.4.1-master/AdViewTestDemoEN/app/src/main/AndroidManifest.xml:427:18-72
+activity#cn.immob.sdk.BrowserActivity
+ADDED from /Users/vinith/Desktop/github_unity_vinith_3.4.1/AdView_Unity3D_Android_SDK-3.4.1-master/AdViewTestDemoEN/app/src/main/AndroidManifest.xml:430:9-431:20
+	android:name
+		ADDED from /Users/vinith/Desktop/github_unity_vinith_3.4.1/AdView_Unity3D_Android_SDK-3.4.1-master/AdViewTestDemoEN/app/src/main/AndroidManifest.xml:430:19-62
+activity#com.kyview.screen.interstitial.adapters.LmMobActivity
+ADDED from /Users/vinith/Desktop/github_unity_vinith_3.4.1/AdView_Unity3D_Android_SDK-3.4.1-master/AdViewTestDemoEN/app/src/main/AndroidManifest.xml:432:9-433:20
+	android:name
+		ADDED from /Users/vinith/Desktop/github_unity_vinith_3.4.1/AdView_Unity3D_Android_SDK-3.4.1-master/AdViewTestDemoEN/app/src/main/AndroidManifest.xml:432:19-87
+activity#com.millennialmedia.android.MMActivity
+ADDED from /Users/vinith/Desktop/github_unity_vinith_3.4.1/AdView_Unity3D_Android_SDK-3.4.1-master/AdViewTestDemoEN/app/src/main/AndroidManifest.xml:436:9-440:20
+	android:configChanges
+		ADDED from /Users/vinith/Desktop/github_unity_vinith_3.4.1/AdView_Unity3D_Android_SDK-3.4.1-master/AdViewTestDemoEN/app/src/main/AndroidManifest.xml:438:13-72
+	android:theme
+		ADDED from /Users/vinith/Desktop/github_unity_vinith_3.4.1/AdView_Unity3D_Android_SDK-3.4.1-master/AdViewTestDemoEN/app/src/main/AndroidManifest.xml:439:13-72
+	android:name
+		ADDED from /Users/vinith/Desktop/github_unity_vinith_3.4.1/AdView_Unity3D_Android_SDK-3.4.1-master/AdViewTestDemoEN/app/src/main/AndroidManifest.xml:437:13-66
+activity#com.umengAd.android.UmengAdDetailActivity
+ADDED from /Users/vinith/Desktop/github_unity_vinith_3.4.1/AdView_Unity3D_Android_SDK-3.4.1-master/AdViewTestDemoEN/app/src/main/AndroidManifest.xml:443:9-446:64
+	android:configChanges
+		ADDED from /Users/vinith/Desktop/github_unity_vinith_3.4.1/AdView_Unity3D_Android_SDK-3.4.1-master/AdViewTestDemoEN/app/src/main/AndroidManifest.xml:445:13-63
+	android:theme
+		ADDED from /Users/vinith/Desktop/github_unity_vinith_3.4.1/AdView_Unity3D_Android_SDK-3.4.1-master/AdViewTestDemoEN/app/src/main/AndroidManifest.xml:446:13-61
+	android:name
+		ADDED from /Users/vinith/Desktop/github_unity_vinith_3.4.1/AdView_Unity3D_Android_SDK-3.4.1-master/AdViewTestDemoEN/app/src/main/AndroidManifest.xml:444:13-69
+activity#com.vpadn.widget.VpadnActivity
+ADDED from /Users/vinith/Desktop/github_unity_vinith_3.4.1/AdView_Unity3D_Android_SDK-3.4.1-master/AdViewTestDemoEN/app/src/main/AndroidManifest.xml:449:9-453:64
+	android:hardwareAccelerated
+		ADDED from /Users/vinith/Desktop/github_unity_vinith_3.4.1/AdView_Unity3D_Android_SDK-3.4.1-master/AdViewTestDemoEN/app/src/main/AndroidManifest.xml:452:13-47
+	android:configChanges
+		ADDED from /Users/vinith/Desktop/github_unity_vinith_3.4.1/AdView_Unity3D_Android_SDK-3.4.1-master/AdViewTestDemoEN/app/src/main/AndroidManifest.xml:451:13-133
+	android:theme
+		ADDED from /Users/vinith/Desktop/github_unity_vinith_3.4.1/AdView_Unity3D_Android_SDK-3.4.1-master/AdViewTestDemoEN/app/src/main/AndroidManifest.xml:453:13-61
+	android:name
+		ADDED from /Users/vinith/Desktop/github_unity_vinith_3.4.1/AdView_Unity3D_Android_SDK-3.4.1-master/AdViewTestDemoEN/app/src/main/AndroidManifest.xml:450:13-58
+activity#com.amazon.device.ads.MraidBrowser
+ADDED from /Users/vinith/Desktop/github_unity_vinith_3.4.1/AdView_Unity3D_Android_SDK-3.4.1-master/AdViewTestDemoEN/app/src/main/AndroidManifest.xml:471:9-473:66
+	android:configChanges
+		ADDED from /Users/vinith/Desktop/github_unity_vinith_3.4.1/AdView_Unity3D_Android_SDK-3.4.1-master/AdViewTestDemoEN/app/src/main/AndroidManifest.xml:473:13-63
+	android:name
+		ADDED from /Users/vinith/Desktop/github_unity_vinith_3.4.1/AdView_Unity3D_Android_SDK-3.4.1-master/AdViewTestDemoEN/app/src/main/AndroidManifest.xml:472:13-62
+activity#com.amazon.device.ads.VideoActionHandler
+ADDED from /Users/vinith/Desktop/github_unity_vinith_3.4.1/AdView_Unity3D_Android_SDK-3.4.1-master/AdViewTestDemoEN/app/src/main/AndroidManifest.xml:474:9-476:66
+	android:configChanges
+		ADDED from /Users/vinith/Desktop/github_unity_vinith_3.4.1/AdView_Unity3D_Android_SDK-3.4.1-master/AdViewTestDemoEN/app/src/main/AndroidManifest.xml:476:13-63
+	android:name
+		ADDED from /Users/vinith/Desktop/github_unity_vinith_3.4.1/AdView_Unity3D_Android_SDK-3.4.1-master/AdViewTestDemoEN/app/src/main/AndroidManifest.xml:475:13-68
+activity#com.kuaiyou.AdViewInstlActivity
+ADDED from /Users/vinith/Desktop/github_unity_vinith_3.4.1/AdView_Unity3D_Android_SDK-3.4.1-master/AdViewTestDemoEN/app/src/main/AndroidManifest.xml:477:9-480:64
+	android:configChanges
+		ADDED from /Users/vinith/Desktop/github_unity_vinith_3.4.1/AdView_Unity3D_Android_SDK-3.4.1-master/AdViewTestDemoEN/app/src/main/AndroidManifest.xml:479:13-63
+	android:theme
+		ADDED from /Users/vinith/Desktop/github_unity_vinith_3.4.1/AdView_Unity3D_Android_SDK-3.4.1-master/AdViewTestDemoEN/app/src/main/AndroidManifest.xml:480:13-61
+	android:name
+		ADDED from /Users/vinith/Desktop/github_unity_vinith_3.4.1/AdView_Unity3D_Android_SDK-3.4.1-master/AdViewTestDemoEN/app/src/main/AndroidManifest.xml:478:13-59
+meta-data#AdView_CHANNEL
+ADDED from /Users/vinith/Desktop/github_unity_vinith_3.4.1/AdView_Unity3D_Android_SDK-3.4.1-master/AdViewTestDemoEN/app/src/main/AndroidManifest.xml:483:9-486:21
+	android:value
+		ADDED from /Users/vinith/Desktop/github_unity_vinith_3.4.1/AdView_Unity3D_Android_SDK-3.4.1-master/AdViewTestDemoEN/app/src/main/AndroidManifest.xml:485:13-33
+	android:name
+		ADDED from /Users/vinith/Desktop/github_unity_vinith_3.4.1/AdView_Unity3D_Android_SDK-3.4.1-master/AdViewTestDemoEN/app/src/main/AndroidManifest.xml:484:13-42
+activity#com.kyview.screen.interstitial.adapters.AdInstlActivity
+ADDED from /Users/vinith/Desktop/github_unity_vinith_3.4.1/AdView_Unity3D_Android_SDK-3.4.1-master/AdViewTestDemoEN/app/src/main/AndroidManifest.xml:490:9-92
+	android:name
+		ADDED from /Users/vinith/Desktop/github_unity_vinith_3.4.1/AdView_Unity3D_Android_SDK-3.4.1-master/AdViewTestDemoEN/app/src/main/AndroidManifest.xml:490:19-89
+activity#com.qiang.escore.sdk.view.DetailActivity
+ADDED from /Users/vinith/Desktop/github_unity_vinith_3.4.1/AdView_Unity3D_Android_SDK-3.4.1-master/AdViewTestDemoEN/app/src/main/AndroidManifest.xml:493:9-495:66
+	android:configChanges
+		ADDED from /Users/vinith/Desktop/github_unity_vinith_3.4.1/AdView_Unity3D_Android_SDK-3.4.1-master/AdViewTestDemoEN/app/src/main/AndroidManifest.xml:495:13-63
+	android:name
+		ADDED from /Users/vinith/Desktop/github_unity_vinith_3.4.1/AdView_Unity3D_Android_SDK-3.4.1-master/AdViewTestDemoEN/app/src/main/AndroidManifest.xml:494:13-68
+activity#com.qiang.escore.sdk.view.WebActivity
+ADDED from /Users/vinith/Desktop/github_unity_vinith_3.4.1/AdView_Unity3D_Android_SDK-3.4.1-master/AdViewTestDemoEN/app/src/main/AndroidManifest.xml:496:9-498:66
+	android:configChanges
+		ADDED from /Users/vinith/Desktop/github_unity_vinith_3.4.1/AdView_Unity3D_Android_SDK-3.4.1-master/AdViewTestDemoEN/app/src/main/AndroidManifest.xml:498:13-63
+	android:name
+		ADDED from /Users/vinith/Desktop/github_unity_vinith_3.4.1/AdView_Unity3D_Android_SDK-3.4.1-master/AdViewTestDemoEN/app/src/main/AndroidManifest.xml:497:13-65
+meta-data#YJF_APP_CHANNEL
+ADDED from /Users/vinith/Desktop/github_unity_vinith_3.4.1/AdView_Unity3D_Android_SDK-3.4.1-master/AdViewTestDemoEN/app/src/main/AndroidManifest.xml:500:9-502:38
+	android:value
+		ADDED from /Users/vinith/Desktop/github_unity_vinith_3.4.1/AdView_Unity3D_Android_SDK-3.4.1-master/AdViewTestDemoEN/app/src/main/AndroidManifest.xml:502:13-35
+	android:name
+		ADDED from /Users/vinith/Desktop/github_unity_vinith_3.4.1/AdView_Unity3D_Android_SDK-3.4.1-master/AdViewTestDemoEN/app/src/main/AndroidManifest.xml:501:13-43
+activity#com.guohead.mix.MIXViewActivity
+ADDED from /Users/vinith/Desktop/github_unity_vinith_3.4.1/AdView_Unity3D_Android_SDK-3.4.1-master/AdViewTestDemoEN/app/src/main/AndroidManifest.xml:505:9-510:20
+	android:screenOrientation
+		ADDED from /Users/vinith/Desktop/github_unity_vinith_3.4.1/AdView_Unity3D_Android_SDK-3.4.1-master/AdViewTestDemoEN/app/src/main/AndroidManifest.xml:508:13-50
+	android:launchMode
+		ADDED from /Users/vinith/Desktop/github_unity_vinith_3.4.1/AdView_Unity3D_Android_SDK-3.4.1-master/AdViewTestDemoEN/app/src/main/AndroidManifest.xml:507:13-43
+	android:theme
+		ADDED from /Users/vinith/Desktop/github_unity_vinith_3.4.1/AdView_Unity3D_Android_SDK-3.4.1-master/AdViewTestDemoEN/app/src/main/AndroidManifest.xml:509:13-83
+	android:name
+		ADDED from /Users/vinith/Desktop/github_unity_vinith_3.4.1/AdView_Unity3D_Android_SDK-3.4.1-master/AdViewTestDemoEN/app/src/main/AndroidManifest.xml:506:13-59
+activity#android.support.v7.widget.TestActivity
+ADDED from [com.android.support:recyclerview-v7:21.0.3] /Users/vinith/.android/build-cache/10f2bc1b5822d3273ec1a735398905849a0b8954/output/AndroidManifest.xml:18:9-115
+	android:label
+		ADDED from [com.android.support:recyclerview-v7:21.0.3] /Users/vinith/.android/build-cache/10f2bc1b5822d3273ec1a735398905849a0b8954/output/AndroidManifest.xml:18:19-59
+	android:name
+		ADDED from [com.android.support:recyclerview-v7:21.0.3] /Users/vinith/.android/build-cache/10f2bc1b5822d3273ec1a735398905849a0b8954/output/AndroidManifest.xml:18:60-113

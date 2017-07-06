@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello,This is AdViewSample!</string>
+    <string name="app_name">AdView Demo</string>
+    <string name="codelayout">Show Banner Ad</string>
+    <string name="codelayout2">AdPosition2</string>
+    <string name="customlayout">Custom Ad platform</string>
+    <string name="bannerlayout">Banner</string>
+    <string name="reqinstl">Request Interstitial</string>
+    <string name="showinstl">Show Interstitial</string>
+    <string name="nativelayout">Native</string>
+    <string name="reqvidolayout">Request Video</string>
+    <string name="showvidolayout">Show Video</string>
+    <string name="spreadlayout">Spread</string>
+    <string name="version">—————— v3.4.1 ——————</string>
+    <string name="content">Update log</string>
+    <string name="ok">OK</string>
+    <string name="btn_native">Add native</string>
+    <string name="btn_show_instal">show Interstial</string>
+    <string name="btn_name">Request Interstial</string>
+    <string name="btn_requesshow">show Interstitual</string>
+    <string name="btn_customshow">show PopUp Interstitual</string>
+
+    <string name="btn_help">Version：V3.4.1</string>
+    <string name="btn_showinstal">AdPosition 1</string>
+    <string name="btn_requestnatie">Request Naitive</string>
+    <string name="btn_shownative">Show Native</string>
+
+
+    <string name="release">Updated time：2017-01-09\n
+		1.Added Opera SDK Banner, intertital, splash,\n
+		2.Added Shunfei(Chinese Platform) Banner, intertital, splash, Native, Video\n
+		3.Updated Vpon to 4.6.1\n
+		4.Updated Youmi SDK 7.0.1</string>
+
+
+    <string name="videolayout">Video</string>
+    <string name="instllayout">Interstial</string>
+
+
+    <string name="btn_requestvideo">request video</string>
+    <string name="btn_showvideo">show video</string>
+
+
+
+</resources>

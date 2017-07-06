@@ -1,0 +1,4 @@
+#Thu Jul 06 18:01:32 IST 2017
+base.0=/Users/vinith/Desktop/github_unity_vinith_3.4.1/AdView_Unity3D_Android_SDK-3.4.1-master/AdViewTestDemoEN/app/build/intermediates/transforms/dex/debug/folders/1000/1f/main
+renamed.0=classes.dex
+file.0=/Users/vinith/Desktop/github_unity_vinith_3.4.1/AdView_Unity3D_Android_SDK-3.4.1-master/AdViewTestDemoEN/app/build/intermediates/transforms/dex/debug/folders/1000/1f/main/classes.dex

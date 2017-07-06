@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="/Users/vinith/Desktop/github_unity_vinith_3.4.1/AdView_Unity3D_Android_SDK-3.4.1-master/AdViewTestDemoEN/app/libs/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="8aed2512915eb930a43cf8a0717460c5231b3b05">
+        <dex dex="/Users/vinith/Desktop/github_unity_vinith_3.4.1/AdView_Unity3D_Android_SDK-3.4.1-master/AdViewTestDemoEN/app/build/intermediates/pre-dexed/debug/classes_588c623ff108a658953e7431bfaf96268b885c4a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/vinith/Desktop/vinith_unity_android/AdView_Unity3D_Android_SDK-3.4.1/AdViewTestDemoEN/app/libs/google-play-services.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d46489ddf16aa31068d51daf98c789890a51aa2f">
+        <dex dex="/Users/vinith/Desktop/vinith_unity_android/AdView_Unity3D_Android_SDK-3.4.1/AdViewTestDemoEN/app/build/intermediates/pre-dexed/debug/google-play-services_dcd311b45d3e3392c7069363fb292809d9f839ba.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/vinith/Desktop/vinith_unity_android/AdView_Unity3D_Android_SDK-3.4.1/AdViewTestDemoEN/app/libs/AdViewSDK_Android.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="323648a484fb603c397b253727ffc18e440236c7">
+        <dex dex="/Users/vinith/Desktop/vinith_unity_android/AdView_Unity3D_Android_SDK-3.4.1/AdViewTestDemoEN/app/build/intermediates/pre-dexed/debug/AdViewSDK_Android_02fc89e18fae8b256b746e3eb5f82b0aa97d2ec2.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/vinith/Desktop/github_unity_vinith_3.4.1/AdView_Unity3D_Android_SDK-3.4.1-master/AdViewTestDemoEN/app/libs/google-play-services.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d46489ddf16aa31068d51daf98c789890a51aa2f">
+        <dex dex="/Users/vinith/Desktop/github_unity_vinith_3.4.1/AdView_Unity3D_Android_SDK-3.4.1-master/AdViewTestDemoEN/app/build/intermediates/pre-dexed/debug/google-play-services_615a89b053b0dc11d21ff17975671fdaf8f4a4cb.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/vinith/Desktop/vinith_unity_android/AdView_Unity3D_Android_SDK-3.4.1/AdViewTestDemoEN/app/libs/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="8aed2512915eb930a43cf8a0717460c5231b3b05">
+        <dex dex="/Users/vinith/Desktop/vinith_unity_android/AdView_Unity3D_Android_SDK-3.4.1/AdViewTestDemoEN/app/build/intermediates/pre-dexed/debug/classes_7b8452349c82a1302410cb383f6ae8f588742bee.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/vinith/Desktop/github_unity_vinith_3.4.1/AdView_Unity3D_Android_SDK-3.4.1-master/AdViewTestDemoEN/app/libs/AdViewSDK_Android.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="323648a484fb603c397b253727ffc18e440236c7">
+        <dex dex="/Users/vinith/Desktop/github_unity_vinith_3.4.1/AdView_Unity3D_Android_SDK-3.4.1-master/AdViewTestDemoEN/app/build/intermediates/pre-dexed/debug/AdViewSDK_Android_5d8da8de0ef897e791d16012bb0838d6da8db398.jar" />
+    </item>
+
+</items>

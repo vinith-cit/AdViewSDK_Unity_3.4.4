@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="background">#FFFFFF</color>
+    <color name="blue">#006eb6</color>
+    <color name="determine">#008ae9</color>
+    <color name="font">#ffffff</color>
+    <color name="green">#1fa199</color>
+    <color name="light_blue">#1fa199</color>
+    <color name="orange">#d2482c</color>
+    <color name="puple">#7457A9</color>
+    <color name="red">#b3232d</color>
+    <color name="version">#565555</color>
+    <color name="yellow">#c68213</color>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="bottombar_img_height">16dp</dimen>
+    <dimen name="bottombar_img_width">16dp</dimen>
+    <dimen name="wrap_content">80dp</dimen>
+    <string name="app_name">AdView Demo</string>
+    <string name="bannerlayout">Banner</string>
+    <string name="btn_customshow">show PopUp Interstitual</string>
+    <string name="btn_help">Version：V3.4.1</string>
+    <string name="btn_name">Request Interstial</string>
+    <string name="btn_native">Add native</string>
+    <string name="btn_requesshow">show Interstitual</string>
+    <string name="btn_requestnatie">Request Naitive</string>
+    <string name="btn_requestvideo">request video</string>
+    <string name="btn_show_instal">show Interstial</string>
+    <string name="btn_showinstal">AdPosition 1</string>
+    <string name="btn_shownative">Show Native</string>
+    <string name="btn_showvideo">show video</string>
+    <string name="codelayout">Show Banner Ad</string>
+    <string name="codelayout2">AdPosition2</string>
+    <string name="content">Update log</string>
+    <string name="customlayout">Custom Ad platform</string>
+    <string name="hello">Hello,This is AdViewSample!</string>
+    <string name="instllayout">Interstial</string>
+    <string name="nativelayout">Native</string>
+    <string name="ok">OK</string>
+    <string name="release">Updated time：2017-01-09\n
+		1.Added Opera SDK Banner, intertital, splash,\n
+		2.Added Shunfei(Chinese Platform) Banner, intertital, splash, Native, Video\n
+		3.Updated Vpon to 4.6.1\n
+		4.Updated Youmi SDK 7.0.1</string>
+    <string name="reqinstl">Request Interstitial</string>
+    <string name="reqvidolayout">Request Video</string>
+    <string name="showinstl">Show Interstitial</string>
+    <string name="showvidolayout">Show Video</string>
+    <string name="spreadlayout">Spread</string>
+    <string name="version">—————— v3.4.1 ——————</string>
+    <string name="videolayout">Video</string>
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+    <style name="Theme_dialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+	</style>
+</resources>
