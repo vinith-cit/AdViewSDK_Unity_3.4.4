@@ -2,33 +2,33 @@
 
 ## Contents
 
-[I. Register and configure SDK-KEY](https://github.com/vinith-cit/AdViewSDK_Android-3.4.1/blob/master/README.md#i-register-and-configure-sdk-key)
+[I. Register and configure SDK-KEY](https://github.com/vinith-cit/AdViewSDK_Unity_Android_3.4.4#i-register-and-configure-sdk-key)
 
-[II.About AdView_Unity3D_Android_SDK-3.4.2](https://github.com/vinith-cit/AdViewSDK_Android-3.4.1/blob/master/README.md#Ⅱabout-adviewsdk_android-341)
+[II.About AdView_Unity3D_Android_SDK-3.4.2](https://github.com/vinith-cit/AdViewSDK_Unity_Android_3.4.4#Ⅱabout-adview_unity3d_android_sdk-342)
 
-[III. Add SDK](https://github.com/vinith-cit/AdViewSDK_Android-3.4.1/blob/master/README.md#iii-add-sdk)
+[III. Add SDK](https://github.com/vinith-cit/AdViewSDK_Unity_Android_3.4.4#iii-add-sdk)
 
-[IV.Add Assets Files](https://github.com/adview/AdView_Unity3D_Android_SDK-3.4.1/blob/master/README.md#iv-add-assets-files)
+[IV.Add Assets Files](https://github.com/vinith-cit/AdViewSDK_Unity_Android_3.4.4#iv-add-assets-files)
 
-[V. AndroidManifest.xml text configuration](https://github.com/vinith-cit/AdViewSDK_Android-3.4.1/blob/master/README.md#iv-androidmanifestxml-text-configuration)
+[V. AndroidManifest.xml text configuration](https://github.com/vinith-cit/AdViewSDK_Unity_Android_3.4.4#v-androidmanifestxml-text-configuration)
 
-[VI. Acquire ad configurations](https://github.com/vinith-cit/AdViewSDK_Android-3.4.1/blob/master/README.md#v-acquire-ad-configurations)
+[VI. Acquire ad configurations](https://github.com/vinith-cit/AdViewSDK_Unity_Android_3.4.4#vi-acquire-ad-configurations)
 
-[VII. Create banner advertising](https://github.com/vinith-cit/AdViewSDK_Android-3.4.1/blob/master/README.md#vi-create-banner-advertising)
+[VII. Create banner advertising](https://github.com/vinith-cit/AdViewSDK_Unity_Android_3.4.4#vii-create-banner-advertising)
 
-[VIII. Create interstitial advertising](https://github.com/vinith-cit/AdViewSDK_Android-3.4.1/blob/master/README.md#vii-create-interstitial-advertising)
+[VIII. Create interstitial advertising](https://github.com/vinith-cit/AdViewSDK_Unity_Android_3.4.4#viii-create-interstitial-advertising)
 
-[IX. Create opening screen ad](https://github.com/vinith-cit/AdViewSDK_Android-3.4.1/blob/master/README.md#viii-create-opening-screen-ad)
+[IX. Create opening screen ad](https://github.com/vinith-cit/AdViewSDK_Unity_Android_3.4.4#ix-create-opening-screen-ad)
 
-[X. Create native advertising ](https://github.com/vinith-cit/AdViewSDK_Android-3.4.1/blob/master/README.md#ix-create-native-advertising)
+[X. Create native advertising ](https://github.com/vinith-cit/AdViewSDK_Unity_Android_3.4.4#x-create-native-advertising)
 
-[XI. Create video advertising](https://github.com/vinith-cit/AdViewSDK_Android-3.4.1/blob/master/README.md#x-create-video-advertising)
+[XI. Create video advertising](https://github.com/vinith-cit/AdViewSDK_Unity_Android_3.4.4#xi--create-video-advertising)
 
-[XII. Adding Proguard-rules](https://github.com/vinith-cit/AdViewSDK_Android-3.4.1/blob/master/README.md#xi-adding-proguard-rules)
+[XII. Adding Proguard-rules](https://github.com/vinith-cit/AdViewSDK_Unity_Android_3.4.4#xii-adding-proguard-rules)
 
-[XIII. Adding custom ad network](https://github.com/adview/AdViewSDK_Android-3.4.1/blob/master/README.md#xii-adding-custom-ad-network)
+[XIII. Adding custom ad network](https://github.com/vinith-cit/AdViewSDK_Unity_Android_3.4.4#xiii-adding-custom-ad-network)
 
-[XIV. Contact us](https://github.com/vinith-cit/AdViewSDK_Android-3.4.1/blob/master/README.md#xiii-contact-us)
+[XIV. Contact us](https://github.com/vinith-cit/AdViewSDK_Unity_Android_3.4.4#xiv-contact-us)
 
 
 
@@ -41,7 +41,7 @@
 
 ![Bidding](https://raw.githubusercontent.com/vinith-cit/Images-for-github/master/III.1.png)
 
-5. Now click on "configure" against your application, then you will be redirected to **“APP management”** page → under the Ad format you want to configure (Banner,interstitial,video,open screen and native) open the switch against Auction ads(AdView Ads) and in case you want to add any custom ad networks (like InMobi, AdMob etc..,) click “Add ad platform”  and please refer to this link [Adding custom ad network](https://github.com/adview/AdViewSDK_Android-3.4.1/blob/master/README.md#xii-adding-custom-ad-network) for further steps, the cumulative percentage muste be 100%,then click save button. Generally recommended number of platforms is 1-3.   
+5. Now click on "configure" against your application, then you will be redirected to **“APP management”** page → under the Ad format you want to configure (Banner,interstitial,video,open screen and native) open the switch against Auction ads(AdView Ads) and in case you want to add any custom ad networks (like InMobi, AdMob etc..,) click “Add ad platform”  and please refer to this link [Adding custom ad network](https://github.com/vinith-cit/AdViewSDK_Unity_Android_3.4.4#xiii-adding-custom-ad-network) for further steps, the cumulative percentage muste be 100%,then click save button. Generally recommended number of platforms is 1-3.   
 
 ![Home page](https://raw.githubusercontent.com/vinith-cit/Images-for-github/master/auction%20ads.png)
 
@@ -71,7 +71,7 @@
 
 **Notes:**
 
-1. In This Github repository we have provided you with Adview Android Unity3d SDK which gives you the freedom to choose your favourite ad network. in order to add custom ad networks please refer to this [Adding custom ad network](https://github.com/adview/AdViewSDK_Android-3.4.1/blob/master/README.md#xii-adding-custom-ad-network)
+1. In This Github repository we have provided you with Adview Android Unity3d SDK which gives you the freedom to choose your favourite ad network. in order to add custom ad networks please refer to this [Adding custom ad network](https://github.com/vinith-cit/AdViewSDK_Unity_Android_3.4.4#xiii-adding-custom-ad-network)
 2. If you are fresher, you don’t know much about ad platform, which ad platform to choose or which ad platform revenue is stable, we suggest you to use bidding first.
 3. Bidding and remnant ads need to complement market information at background, if the status is **"Under review"** you will be receiving test ads. and you will get formal ads only after **"pass reviewed"** by the AdView team. 
 4. Ads will be shown of only those ad platforms for which the **switch** is on against them.						
@@ -103,7 +103,7 @@ It contains all the .jar file SDK needed for ad platform integration.
 1. Clone or download AdViewSDK_Android-3.4.2 package here.In the AdViewSDK_Android-3.4.2 folder contains libs folder ,it contains the SDK for all ad platforms. (Libinfo.pdf has the ad platform instructions corresponding to each jar.)
 2. Please copy and paste **AdViewSDK_Android.jar,google-play-services.jar** into your application lib folder.you'll need to integrate the Google Play Services SDK into your app.This is mandatory; without Google Play Services, the SDK cannot function.
 
-3. In order to add **new ad network** please copy the .jar file of that particular ad platform provided by AdView to your lib folder and follow the same for all other ad platforms you would like to integrate. In case of **InMobi** add the **InMobi.jar** and **Picaso.jar** files.Please refer for adding custom ad Network this procedure [Adding custom ad network](https://github.com/adview/AdViewSDK_Android-3.4.1/blob/master/README.md#xii-adding-custom-ad-network)
+3. In order to add **new ad network** please copy the .jar file of that particular ad platform provided by AdView to your lib folder and follow the same for all other ad platforms you would like to integrate. In case of **InMobi** add the **InMobi.jar** and **Picaso.jar** files.Please refer for adding custom ad Network this procedure [Adding custom ad network](https://github.com/vinith-cit/AdViewSDK_Unity_Android_3.4.4#xiii-adding-custom-ad-network)
 
 ![add SDK](https://raw.githubusercontent.com/vinith-cit/Images-for-github/master/IV.png)						  
 
@@ -854,7 +854,7 @@ AdView has integrated various ad networks (InMobi, AdMob, etc..,) where you are 
 
 Please add the SDK of InMobi--> you can follow this procedure 
 
-[Add SDK](https://github.com/adview/AdViewSDK_Android-3.4.1/blob/master/README.md#iii-add-sdk)
+[Add SDK](https://github.com/vinith-cit/AdViewSDK_Unity_Android_3.4.4#iii-add-sdk)
 
 3. After login you will get the the account ID as shown in the below image, click on Add an App.  
 
