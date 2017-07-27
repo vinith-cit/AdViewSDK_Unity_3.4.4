@@ -13,7 +13,7 @@
     <string name="reqvidolayout">Request Video</string>
     <string name="showvidolayout">Show Video</string>
     <string name="spreadlayout">Spread</string>
-    <string name="version">—————— v3.4.1 ——————</string>
+    <string name="version">—————— v3.4.4 ——————</string>
     <string name="content">Update log</string>
     <string name="ok">OK</string>
     <string name="btn_native">Add native</string>
@@ -22,17 +22,19 @@
     <string name="btn_requesshow">show Interstitual</string>
     <string name="btn_customshow">show PopUp Interstitual</string>
 
-    <string name="btn_help">Version：V3.4.1</string>
+    <string name="btn_help">Version：V3.4.4</string>
     <string name="btn_showinstal">AdPosition 1</string>
     <string name="btn_requestnatie">Request Naitive</string>
     <string name="btn_shownative">Show Native</string>
 
 
-    <string name="release">Updated time：2017-01-09\n
-		1.Added Opera SDK Banner, intertital, splash,\n
-		2.Added Shunfei(Chinese Platform) Banner, intertital, splash, Native, Video\n
-		3.Updated Vpon to 4.6.1\n
-		4.Updated Youmi SDK 7.0.1</string>
+    <string name="release"> Updated time：2017-07-20\n
+    1. Baidu to 5.7\n
+    2. update Facebook to 4.24.0\n
+    3. update InMobi to 6.2.3\n
+    4. update MobFox3.2.7\n
+    5. new news fly 3.0: banner, screen, open screen, native\n
+    note: which has rice, AdMob, MillenniaMedia, Facebook only supports Android Studio version, does not support Eclipse</string>
 
 
     <string name="videolayout">Video</string>

@@ -8,7 +8,6 @@ import android.util.Log;
 import android.view.View;
 import android.widget.Toast;
 
-import com.kyview.InitConfiguration;
 import com.kyview.interfaces.AdViewVideoListener;
 import com.kyview.manager.AdViewVideoManager;
 import com.unity3d.player.UnityPlayer;
@@ -74,7 +73,6 @@ public class AdVideoActivity extends Activity {
 
 	/**
 	 * Requesting video Ad Function
-	 * @param key
 	 */
 	public void requestVideo() {
 		((Activity) context).runOnUiThread(new Runnable() {
@@ -99,6 +97,15 @@ public class AdVideoActivity extends Activity {
 						Log.i(TAG, "onAdClose");
 						UnityPlayer.UnitySendMessage(DEFAULTCAMERA,
 								"onAdClose", "");
+
+					}
+
+					@Override
+					public void onAdReady(String s) {
+						Log.e(TAG,"On AdReady");
+						UnityPlayer.UnitySendMessage(DEFAULTCAMERA,
+								"On AdReady", "");
+						Toast.makeText(AdVideoActivity.this,"On AdReady",Toast.LENGTH_SHORT).show();
 
 					}
 

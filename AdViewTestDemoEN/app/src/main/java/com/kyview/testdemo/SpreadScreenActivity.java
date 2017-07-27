@@ -68,7 +68,7 @@ public class SpreadScreenActivity extends Activity implements AdViewSpreadListen
 
 
 		// Requesting open screen ad
-		AdViewSpreadManager.getInstance(this).request(this, MainActivity.SDK_KEY,layout, this);
+		AdViewSpreadManager.getInstance(this).request(this, MainActivity.SDK_KEY,this,layout);
 	}
 
 	@Override

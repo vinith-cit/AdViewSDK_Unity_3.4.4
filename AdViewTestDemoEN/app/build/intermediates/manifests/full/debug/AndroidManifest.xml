@@ -58,6 +58,11 @@
     <uses-permission android:name="com.android.browser.permission.READ_HISTORY_BOOKMARKS" />
     <!-- smaato 所需的权限 -->
     <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="com.google.android.gms.permission.ACTIVITY_RECOGNITION" />
+
+    <!-- Adsmar移动、讯飞必须 -->
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_UPDATES" />
 
     <application
         android:icon="@drawable/ic_lancher"
@@ -136,6 +141,9 @@
             android:name="com.suntengmob.sdk.activity.SplashActivity"
             android:configChanges="orientation|keyboardHidden|screenSize|screenLayout|smallestScreenSize"
             android:screenOrientation="portrait" />
+
+        <!-- AdView SDK for MobFox -->
+        <activity android:name="com.mobfox.sdk.interstitialads.InterstitialActivity" />
 
         <!-- AdView SDK for AdPro 光音 -->
         <activity
@@ -261,6 +269,30 @@
             </intent-filter>
         </receiver>
 
+        <!-- Adview SDK for Tapjoy -->
+        <activity
+            android:name="com.tapjoy.TJAdUnitActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:hardwareAccelerated="true"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen" />
+        <activity
+            android:name="com.tapjoy.mraid.view.ActionHandler"
+            android:configChanges="orientation|keyboardHidden|screenSize" />
+        <activity
+            android:name="com.tapjoy.TJContentActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize" />
+        <activity
+            android:name="com.tapjoy.mraid.view.Browser"
+            android:configChanges="orientation|keyboardHidden|screenSize" />
+
+        <!-- Adview SDK for Chartboots -->
+        <activity
+            android:name="com.chartboost.sdk.CBImpressionActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:excludeFromRecents="true"
+            android:hardwareAccelerated="true"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen" />
+
         <!-- AdView SDK for WQ -->
         <activity
             android:name="com.wqmobile.sdk.WQActionHandler"
@@ -281,6 +313,7 @@
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
+
         <!--
         <service android:name="com.otomod.ad.openudid.OpenUDID_service" >
             <intent-filter>
@@ -336,6 +369,23 @@
             android:theme="@android:style/Theme.Translucent" >
         </activity>
 
+        <!-- AdView SDK for Youmi -->
+        <!-- 视频组件 -->
+        <activity
+            android:name="net.youmi.android.nm.vdo.VideoActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenSize|screenLayout"
+            android:screenOrientation="landscape"
+            android:taskAffinity=""
+            android:theme="@android:style/Theme.NoTitleBar" >
+        </activity>
+
+        <!-- AdView SDK for Adsmar -->
+        <activity
+            android:name="com.adusing.adsmar.request.AdBrowser"
+            android:configChanges="orientation|keyboardHidden|keyboard|screenSize" />
+
+        <service android:name="com.adusing.adsmar.update.DownloadService" />
+
         <!-- AdView SDK for 宜搜 -->
         <service
             android:name="com.easou.ecom.mads.service.DownloadService"
@@ -381,6 +431,11 @@
             android:configChanges="keyboardHidden|orientation|screenSize" >
         </activity>
 
+        <!-- AdView SDK for JiuXu, also need the folowing google setting -->
+        <activity
+            android:name="com.chamspire.mobile.ad.base.platforms.self.SelfFullActivity"
+            android:theme="@android:style/Theme.NoTitleBar" />
+
         <!-- AdView SDK for AdMob -->
         <activity
             android:name="com.google.android.gms.ads.AdActivity"
@@ -405,8 +460,17 @@
         <!--
             <meta-data
             android:name="BaiduMobAd_DEBUG_TOKEN"
-            android:value="adview" />  
+            android:value="adview" />
         -->
+
+
+        <!-- AdView SDK for 讯飞 -->
+        <service android:name="com.iflytek.voiceads.update.DownloadService" />
+
+        <activity
+            android:name="com.iflytek.voiceads.request.IFLYBrowser"
+            android:screenOrientation="portrait" />
+
         <!-- AdView SDK for AirAd -->
         <activity
             android:name="com.mt.airad.MultiAD"

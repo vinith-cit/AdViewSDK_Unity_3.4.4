@@ -56,6 +56,11 @@
     <uses-permission android:name="com.android.browser.permission.READ_HISTORY_BOOKMARKS" />
     <!-- smaato 所需的权限 -->
     <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="com.google.android.gms.permission.ACTIVITY_RECOGNITION" />
+
+    <!-- Adsmar移动、讯飞必须 -->
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_UPDATES" />
 
     <application
         android:icon="@drawable/ic_lancher"
@@ -308,6 +313,7 @@
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
+
         <!--
         <service android:name="com.otomod.ad.openudid.OpenUDID_service" >
             <intent-filter>
@@ -363,6 +369,18 @@
             android:configChanges="keyboard|keyboardHidden|orientation"
             android:theme="@android:style/Theme.Translucent" >
         </activity>
+
+
+
+        <!-- AdView SDK for Youmi -->
+        <!-- 视频组件 -->
+        <activity
+            android:name="net.youmi.android.nm.vdo.VideoActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenSize|screenLayout"
+            android:screenOrientation="landscape"
+            android:taskAffinity=""
+            android:theme="@android:style/Theme.NoTitleBar" >
+        </activity >
 
 
 
@@ -448,10 +466,21 @@
         <!--
             <meta-data
             android:name="BaiduMobAd_DEBUG_TOKEN"
-            android:value="adview" />  
+            android:value="adview" />
+
+                    -->
 
 
-        -->
+
+        <!--AdView SDK for 讯飞    -->
+        <service
+            android:name="com.iflytek.voiceads.update.DownloadService"/>
+
+        <activity
+            android:name="com.iflytek.voiceads.request.IFLYBrowser"
+            android:screenOrientation="portrait" />
+
+
         <!-- AdView SDK for AirAd -->
         <activity
             android:name="com.mt.airad.MultiAD"
